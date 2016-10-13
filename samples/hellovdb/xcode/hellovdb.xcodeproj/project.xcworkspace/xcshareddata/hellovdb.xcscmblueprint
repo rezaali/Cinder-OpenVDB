@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0634D4E9DCD3F8B6F09E5B9258990F9A681E716A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "AD4B458D0D225ED63FAE0155615993B7D3ECE020" : 0,
+    "0634D4E9DCD3F8B6F09E5B9258990F9A681E716A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "06B777C0-E371-447B-A722-D3AC0D2A90A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "AD4B458D0D225ED63FAE0155615993B7D3ECE020" : "..",
+    "0634D4E9DCD3F8B6F09E5B9258990F9A681E716A" : "OpenVDB\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "hellovdb",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "samples\/hellovdb\/xcode\/hellovdb.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:rezaali\/Cinder-OpenVDB.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0634D4E9DCD3F8B6F09E5B9258990F9A681E716A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:rezaali\/Cinder.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AD4B458D0D225ED63FAE0155615993B7D3ECE020"
+    }
+  ]
+}

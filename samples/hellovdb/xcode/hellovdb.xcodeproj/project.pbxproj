@@ -1,0 +1,1292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		006D720419952D00008149E2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006D720219952D00008149E2 /* AVFoundation.framework */; };
+		006D720519952D00008149E2 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 006D720319952D00008149E2 /* CoreMedia.framework */; };
+		0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0091D8F80E81B9330029341E /* OpenGL.framework */; };
+		00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784AF0FF439BC000DE1D7 /* Accelerate.framework */; };
+		00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */; };
+		00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B10FF439BC000DE1D7 /* AudioUnit.framework */; };
+		00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B784B20FF439BC000DE1D7 /* CoreAudio.framework */; };
+		00B9955A1B128DF400A5C623 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995581B128DF400A5C623 /* IOKit.framework */; };
+		00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00B995591B128DF400A5C623 /* IOSurface.framework */; };
+		5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5323E6B10EAFCA74003A9687 /* CoreVideo.framework */; };
+		602AEDB3DBA04D31BB5FAADF /* libboost_iostreams.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = DBA1ED34394F46E385C59653 /* libboost_iostreams.dylib */; };
+		75616103D7F94BDFAB84306A /* hellovdbApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8E569F3CAF8D4DAA8108B37F /* hellovdbApp.cpp */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		8D97B3696FFC494582402ADF /* libopenvdb.3.2.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 93664EFF8A0B41EFA09D8D0F /* libopenvdb.3.2.0.dylib */; };
+		966907E28D5544C0ABCFF2E4 /* CinderApp.icns in Resources */ = {isa = PBXBuildFile; fileRef = 2583081AC04646E2821B2B47 /* CinderApp.icns */; };
+		9CF79D83F4C54EAC985769BA /* libHalf.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 109AB4130484473AB338DE65 /* libHalf.dylib */; };
+		B7D2C3481C9C43F8B3C31832 /* libboost_system.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A4DDE46E27894CA9AFE80E65 /* libboost_system.dylib */; };
+		F13EB9A22FB44416A0555D55 /* libtbb.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = FB8806DF951D4B47AAD81691 /* libtbb.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		01F93BC3007E460EBA2BCC87 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9CF79D83F4C54EAC985769BA /* libHalf.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		101056A30D314B51BF5D7001 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F13EB9A22FB44416A0555D55 /* libtbb.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1162FB594CFD4AB6A0169888 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B7D2C3481C9C43F8B3C31832 /* libboost_system.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22E9C646BD334643B3E62367 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				602AEDB3DBA04D31BB5FAADF /* libboost_iostreams.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		614F3FFC320A43429D0F2618 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8D97B3696FFC494582402ADF /* libopenvdb.3.2.0.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		006D720219952D00008149E2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		006D720319952D00008149E2 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		0091D8F80E81B9330029341E /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		00B753E04E704081848D3975 /* Statistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Statistics.h; path = ../../../src/OpenVDB/tools/Statistics.h; sourceTree = "<group>"; };
+		00B784AF0FF439BC000DE1D7 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		00B784B10FF439BC000DE1D7 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
+		00B784B20FF439BC000DE1D7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		00B995581B128DF400A5C623 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		00B995591B128DF400A5C623 /* IOSurface.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOSurface.framework; path = System/Library/Frameworks/IOSurface.framework; sourceTree = SDKROOT; };
+		0293F3C4E28F45078B02CF26 /* tbb_stddef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tbb_stddef.h; path = ../../../src/tbb/tbb_stddef.h; sourceTree = "<group>"; };
+		02D27DA32B9343C4A8C0D118 /* Vec2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Vec2.h; path = ../../../src/OpenVDB/math/Vec2.h; sourceTree = "<group>"; };
+		045B6E39FD5E41558089650F /* ImfCompositeDeepScanLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfCompositeDeepScanLine.h; path = ../../../src/OpenEXR/ImfCompositeDeepScanLine.h; sourceTree = "<group>"; };
+		04A799B7B32D4C36ADA6AED4 /* _concurrent_queue_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _concurrent_queue_impl.h; path = ../../../src/tbb/internal/_concurrent_queue_impl.h; sourceTree = "<group>"; };
+		066DA66D271D40298F18E4DF /* ImathFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathFrame.h; path = ../../../src/OpenEXR/ImathFrame.h; sourceTree = "<group>"; };
+		0701BE6BBB7F4FC78E6E0E1A /* ImathColorAlgo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathColorAlgo.h; path = ../../../src/OpenEXR/ImathColorAlgo.h; sourceTree = "<group>"; };
+		08FADAFEEBA64A7C9503E0FF /* PointMaskGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PointMaskGrid.h; path = ../../../src/OpenVDB/tools/PointMaskGrid.h; sourceTree = "<group>"; };
+		09E51D92868749C6A60E9282 /* ImfRationalAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfRationalAttribute.h; path = ../../../src/OpenEXR/ImfRationalAttribute.h; sourceTree = "<group>"; };
+		0A33187FEE0F44BFB590DBBE /* IexMathFloatExc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IexMathFloatExc.h; path = ../../../src/OpenEXR/IexMathFloatExc.h; sourceTree = "<group>"; };
+		0A7E53BEA2DB4A3E95EF0FED /* ImfMultiView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfMultiView.h; path = ../../../src/OpenEXR/ImfMultiView.h; sourceTree = "<group>"; };
+		0AB37575CB3E4F0E8CDF8685 /* ImfEnvmapAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfEnvmapAttribute.h; path = ../../../src/OpenEXR/ImfEnvmapAttribute.h; sourceTree = "<group>"; };
+		0ABD2805FE194B28AF5B3490 /* ImfConvert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfConvert.h; path = ../../../src/OpenEXR/ImfConvert.h; sourceTree = "<group>"; };
+		0ACBFCC16A924AA5B1B8F6C4 /* _mutex_padding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _mutex_padding.h; path = ../../../src/tbb/internal/_mutex_padding.h; sourceTree = "<group>"; };
+		0AF3E3AC53DC4E21A551CDD5 /* VectorTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VectorTransformer.h; path = ../../../src/OpenVDB/tools/VectorTransformer.h; sourceTree = "<group>"; };
+		0B3CB75798B1473BA0855119 /* Quat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Quat.h; path = ../../../src/OpenVDB/math/Quat.h; sourceTree = "<group>"; };
+		0B9F34C792A84D53BCFB3A99 /* gcc_armv7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gcc_armv7.h; path = ../../../src/tbb/machine/gcc_armv7.h; sourceTree = "<group>"; };
+		0BDE7B6F5E6540599266972E /* _x86_rtm_rw_mutex_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _x86_rtm_rw_mutex_impl.h; path = ../../../src/tbb/internal/_x86_rtm_rw_mutex_impl.h; sourceTree = "<group>"; };
+		0BED9A50C09646E982ECD36A /* IexMathExc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IexMathExc.h; path = ../../../src/OpenEXR/IexMathExc.h; sourceTree = "<group>"; };
+		0D5FCFF9BCCE402E9EFBA912 /* flow_graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = flow_graph.h; path = ../../../src/tbb/flow_graph.h; sourceTree = "<group>"; };
+		0D82138A5B1141A9A68CDB3F /* blocked_range.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = blocked_range.h; path = ../../../src/tbb/blocked_range.h; sourceTree = "<group>"; };
+		0EAEE5C58BE64858A71127C7 /* _flow_graph_types_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _flow_graph_types_impl.h; path = ../../../src/tbb/internal/_flow_graph_types_impl.h; sourceTree = "<group>"; };
+		0EE5D7F75A8442E3A1890B8A /* Iex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Iex.h; path = ../../../src/OpenEXR/Iex.h; sourceTree = "<group>"; };
+		0F5679C3D0B7463782C42BC3 /* _flow_graph_item_buffer_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _flow_graph_item_buffer_impl.h; path = ../../../src/tbb/internal/_flow_graph_item_buffer_impl.h; sourceTree = "<group>"; };
+		0F7EA88E9CF44D129BA4BD73 /* PointsToMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PointsToMask.h; path = ../../../src/OpenVDB/tools/PointsToMask.h; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		1085E4D362164BB192997D43 /* TopologyToLevelSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TopologyToLevelSet.h; path = ../../../src/OpenVDB/tools/TopologyToLevelSet.h; sourceTree = "<group>"; };
+		109AB4130484473AB338DE65 /* libHalf.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libHalf.dylib; path = ../../../libs/macosx/OpenEXR/libHalf.dylib; sourceTree = "<group>"; };
+		1172128BBAD240AA9CE5C693 /* BBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BBox.h; path = ../../../src/OpenVDB/math/BBox.h; sourceTree = "<group>"; };
+		11E188C888EE487F86227C29 /* ImfVecAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfVecAttribute.h; path = ../../../src/OpenEXR/ImfVecAttribute.h; sourceTree = "<group>"; };
+		12D86FFC8707434ABE228BC3 /* ImfCompressionAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfCompressionAttribute.h; path = ../../../src/OpenEXR/ImfCompressionAttribute.h; sourceTree = "<group>"; };
+		13D993DD7BCE4732AC954E66 /* tbb_profiling.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tbb_profiling.h; path = ../../../src/tbb/tbb_profiling.h; sourceTree = "<group>"; };
+		141FE003918242B1BC9BB85A /* ImfStandardAttributes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfStandardAttributes.h; path = ../../../src/OpenEXR/ImfStandardAttributes.h; sourceTree = "<group>"; };
+		14470267CEDB488F8CBBBC8D /* _concurrent_unordered_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _concurrent_unordered_impl.h; path = ../../../src/tbb/internal/_concurrent_unordered_impl.h; sourceTree = "<group>"; };
+		158280A736BD48179C6B6469 /* Composite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Composite.h; path = ../../../src/OpenVDB/tools/Composite.h; sourceTree = "<group>"; };
+		162E477E5E564CC3B49D5D3D /* ImathQuat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathQuat.h; path = ../../../src/OpenEXR/ImathQuat.h; sourceTree = "<group>"; };
+		17899B32C8DD4217A1E6DCE4 /* ImfB44Compressor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfB44Compressor.h; path = ../../../src/OpenEXR/ImfB44Compressor.h; sourceTree = "<group>"; };
+		189ADB6BBCB6433FBAC546B4 /* Maps.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Maps.h; path = ../../../src/OpenVDB/math/Maps.h; sourceTree = "<group>"; };
+		1972F3D1E9DE467DBF911670 /* spin_rw_mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = spin_rw_mutex.h; path = ../../../src/tbb/spin_rw_mutex.h; sourceTree = "<group>"; };
+		198499555BE041459E945443 /* QuantizedUnitVec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = QuantizedUnitVec.h; path = ../../../src/OpenVDB/math/QuantizedUnitVec.h; sourceTree = "<group>"; };
+		1A298C8186664E32A915D9AC /* partitioner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = partitioner.h; path = ../../../src/tbb/partitioner.h; sourceTree = "<group>"; };
+		1A83659867DD4117BBE17B00 /* ImfChannelList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfChannelList.h; path = ../../../src/OpenEXR/ImfChannelList.h; sourceTree = "<group>"; };
+		1BDCDC6CEC7A4DD0B6B6A45D /* ImathForward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathForward.h; path = ../../../src/OpenEXR/ImathForward.h; sourceTree = "<group>"; };
+		1BE9500ED4974A588330C3E6 /* tbb_machine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tbb_machine.h; path = ../../../src/tbb/tbb_machine.h; sourceTree = "<group>"; };
+		1C7E858D30FE4C75AB50DBE2 /* null_rw_mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = null_rw_mutex.h; path = ../../../src/tbb/null_rw_mutex.h; sourceTree = "<group>"; };
+		1C98153C0D784B6BB429B8BC /* msvc_armv7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = msvc_armv7.h; path = ../../../src/tbb/machine/msvc_armv7.h; sourceTree = "<group>"; };
+		1CBE64A10C4D4E1AA441EBA8 /* tbb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tbb.h; path = ../../../src/tbb/tbb.h; sourceTree = "<group>"; };
+		1CFC19B51F334D5EAC88394A /* ImfTiledOutputFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfTiledOutputFile.h; path = ../../../src/OpenEXR/ImfTiledOutputFile.h; sourceTree = "<group>"; };
+		1D0B9815C11344DC915AF9DC /* Prune.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Prune.h; path = ../../../src/OpenVDB/tools/Prune.h; sourceTree = "<group>"; };
+		1D0F6A7D485D48809162D242 /* Iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Iterator.h; path = ../../../src/OpenVDB/tree/Iterator.h; sourceTree = "<group>"; };
+		1D1D89B8E4724932849287CD /* ImfRational.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfRational.h; path = ../../../src/OpenEXR/ImfRational.h; sourceTree = "<group>"; };
+		1E325EC0C1A94F089B36B8BB /* PoissonSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PoissonSolver.h; path = ../../../src/OpenVDB/tools/PoissonSolver.h; sourceTree = "<group>"; };
+		1EB057751EFE45BE97EC736A /* ImfTimeCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfTimeCode.h; path = ../../../src/OpenEXR/ImfTimeCode.h; sourceTree = "<group>"; };
+		1F021F6B382743F7AFFA540F /* ImathMatrixAlgo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathMatrixAlgo.h; path = ../../../src/OpenEXR/ImathMatrixAlgo.h; sourceTree = "<group>"; };
+		1F88E234C1264DEBAFCB5196 /* CpuTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CpuTimer.h; path = ../../../src/OpenVDB/util/CpuTimer.h; sourceTree = "<group>"; };
+		1FC8C8B637A244A1AFDBFE19 /* IlmThreadExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IlmThreadExport.h; path = ../../../src/OpenEXR/IlmThreadExport.h; sourceTree = "<group>"; };
+		208BB7A1C1914B3A959E91EE /* ImfTiledOutputPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfTiledOutputPart.h; path = ../../../src/OpenEXR/ImfTiledOutputPart.h; sourceTree = "<group>"; };
+		20AB3198269E4AE59A3EF5E2 /* ParticleAtlas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParticleAtlas.h; path = ../../../src/OpenVDB/tools/ParticleAtlas.h; sourceTree = "<group>"; };
+		21631ECB14364213A5E69B44 /* ImfPreviewImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfPreviewImage.h; path = ../../../src/OpenEXR/ImfPreviewImage.h; sourceTree = "<group>"; };
+		2386D847762F4C648BAE5460 /* ImfAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfAttribute.h; path = ../../../src/OpenEXR/ImfAttribute.h; sourceTree = "<group>"; };
+		2457D105697C45829E3E54D3 /* ImfDeepTiledOutputFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfDeepTiledOutputFile.h; path = ../../../src/OpenEXR/ImfDeepTiledOutputFile.h; sourceTree = "<group>"; };
+		24AF069485C64B6299166CDA /* Resources.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Resources.h; path = ../include/Resources.h; sourceTree = "<group>"; };
+		2583081AC04646E2821B2B47 /* CinderApp.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = CinderApp.icns; path = ../resources/CinderApp.icns; sourceTree = "<group>"; };
+		2586250CD6B54D189569D3DE /* gcc_ia32_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gcc_ia32_common.h; path = ../../../src/tbb/machine/gcc_ia32_common.h; sourceTree = "<group>"; };
+		25A88F91682F4EEDBD080292 /* ImathLimits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathLimits.h; path = ../../../src/OpenEXR/ImathLimits.h; sourceTree = "<group>"; };
+		25E3D01EB4A7466C83DF8CF3 /* task_group.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = task_group.h; path = ../../../src/tbb/task_group.h; sourceTree = "<group>"; };
+		265FD20DBF6A4AFAA64E6B94 /* Metadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Metadata.h; path = ../../../src/OpenVDB/metadata/Metadata.h; sourceTree = "<group>"; };
+		27FF66A5396140F3AB55623F /* _flow_graph_trace_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _flow_graph_trace_impl.h; path = ../../../src/tbb/internal/_flow_graph_trace_impl.h; sourceTree = "<group>"; };
+		2806E77533CC4DACA5585333 /* ValueAccessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ValueAccessor.h; path = ../../../src/OpenVDB/tree/ValueAccessor.h; sourceTree = "<group>"; };
+		28D51C785883418490ADAC46 /* scalable_allocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = scalable_allocator.h; path = ../../../src/tbb/scalable_allocator.h; sourceTree = "<group>"; };
+		29272B2BCDBC41469DC6CB78 /* global_control.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = global_control.h; path = ../../../src/tbb/global_control.h; sourceTree = "<group>"; };
+		295757F181BA4600AD93A628 /* combinable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = combinable.h; path = ../../../src/tbb/combinable.h; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		2BDF72080E0F482A8B200935 /* PlatformConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PlatformConfig.h; path = ../../../src/OpenVDB/PlatformConfig.h; sourceTree = "<group>"; };
+		2C36D1545E87430D93A8C524 /* _flow_graph_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _flow_graph_impl.h; path = ../../../src/tbb/internal/_flow_graph_impl.h; sourceTree = "<group>"; };
+		2C42C14C64304608974BFCA6 /* flow_graph_opencl_node.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = flow_graph_opencl_node.h; path = ../../../src/tbb/flow_graph_opencl_node.h; sourceTree = "<group>"; };
+		2D58F7EAB9584802BE1EDAC1 /* ImfStringAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfStringAttribute.h; path = ../../../src/OpenEXR/ImfStringAttribute.h; sourceTree = "<group>"; };
+		2DF59CEB90944764B126AFB4 /* LevelSetFracture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LevelSetFracture.h; path = ../../../src/OpenVDB/tools/LevelSetFracture.h; sourceTree = "<group>"; };
+		2F1D80952E4D4906982D91D2 /* ImfGenericOutputFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfGenericOutputFile.h; path = ../../../src/OpenEXR/ImfGenericOutputFile.h; sourceTree = "<group>"; };
+		2FCF4F3F39D84E448B2FBCBC /* ValueTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ValueTransformer.h; path = ../../../src/OpenVDB/tools/ValueTransformer.h; sourceTree = "<group>"; };
+		3072B2D951D64A8A824B21C8 /* GridTransformer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GridTransformer.h; path = ../../../src/OpenVDB/tools/GridTransformer.h; sourceTree = "<group>"; };
+		30DB053F9DEC475BA5934109 /* _tbb_hash_compare_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _tbb_hash_compare_impl.h; path = ../../../src/tbb/internal/_tbb_hash_compare_impl.h; sourceTree = "<group>"; };
+		3124E7DDE4B04FA48C6AA60A /* FiniteDifference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FiniteDifference.h; path = ../../../src/OpenVDB/math/FiniteDifference.h; sourceTree = "<group>"; };
+		3242A01D5A56436DA879248F /* ImathInt64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathInt64.h; path = ../../../src/OpenEXR/ImathInt64.h; sourceTree = "<group>"; };
+		326F5BDA11E2409A95EABFED /* ImfTestFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfTestFile.h; path = ../../../src/OpenEXR/ImfTestFile.h; sourceTree = "<group>"; };
+		3387C84BF7E442E69DBC460F /* atomic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = atomic.h; path = ../../../src/tbb/atomic.h; sourceTree = "<group>"; };
+		34ABD5ECC0E44583BA4EB7AA /* gcc_generic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gcc_generic.h; path = ../../../src/tbb/machine/gcc_generic.h; sourceTree = "<group>"; };
+		35EFAB57AB634433AEC9E463 /* ImfTiledInputFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfTiledInputFile.h; path = ../../../src/OpenEXR/ImfTiledInputFile.h; sourceTree = "<group>"; };
+		377510FE6F9041FCAFD720D3 /* TreeIterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TreeIterator.h; path = ../../../src/OpenVDB/tree/TreeIterator.h; sourceTree = "<group>"; };
+		37822EF4D2B647CAA5FA27B4 /* IexThrowErrnoExc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IexThrowErrnoExc.h; path = ../../../src/OpenEXR/IexThrowErrnoExc.h; sourceTree = "<group>"; };
+		387105F651EF4DB0BC6733E5 /* halfFunction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = halfFunction.h; path = ../../../src/OpenEXR/halfFunction.h; sourceTree = "<group>"; };
+		38FB8F54430B43F9AA66CF19 /* ImfWav.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfWav.h; path = ../../../src/OpenEXR/ImfWav.h; sourceTree = "<group>"; };
+		3935E69A1AF94E0ABAB12078 /* Grid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Grid.h; path = ../../../src/OpenVDB/Grid.h; sourceTree = "<group>"; };
+		39AF42D796034E8A990A588F /* LevelSetTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LevelSetTracker.h; path = ../../../src/OpenVDB/tools/LevelSetTracker.h; sourceTree = "<group>"; };
+		3AD9836402104D75AB49E5A0 /* NullInterrupter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NullInterrupter.h; path = ../../../src/OpenVDB/util/NullInterrupter.h; sourceTree = "<group>"; };
+		3B23D9386DAE4A00A7300036 /* PagedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PagedArray.h; path = ../../../src/OpenVDB/util/PagedArray.h; sourceTree = "<group>"; };
+		3BAA32B14D6B4C70A60EB26A /* ImfLut.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfLut.h; path = ../../../src/OpenEXR/ImfLut.h; sourceTree = "<group>"; };
+		3C28ADEF22DA44FE81B61F71 /* Mat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Mat.h; path = ../../../src/OpenVDB/math/Mat.h; sourceTree = "<group>"; };
+		3D337D8D791E4FA2B3CA3CD8 /* ImfRgbaFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfRgbaFile.h; path = ../../../src/OpenEXR/ImfRgbaFile.h; sourceTree = "<group>"; };
+		3D3C406E5AED44138B9BC095 /* ImathColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathColor.h; path = ../../../src/OpenEXR/ImathColor.h; sourceTree = "<group>"; };
+		3E7D389589514025BB2D349A /* Types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Types.h; path = ../../../src/OpenVDB/Types.h; sourceTree = "<group>"; };
+		3ED6CC0A68874F3793F7C033 /* sunos_sparc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sunos_sparc.h; path = ../../../src/tbb/machine/sunos_sparc.h; sourceTree = "<group>"; };
+		3F6E1E7B572D4F1989D8095E /* ImfKeyCodeAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfKeyCodeAttribute.h; path = ../../../src/OpenEXR/ImfKeyCodeAttribute.h; sourceTree = "<group>"; };
+		3FA408FBB3314382BC066C13 /* reader_writer_lock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = reader_writer_lock.h; path = ../../../src/tbb/reader_writer_lock.h; sourceTree = "<group>"; };
+		404AAC4A8C4B46E4ABDF0264 /* ImathFun.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathFun.h; path = ../../../src/OpenEXR/ImathFun.h; sourceTree = "<group>"; };
+		407DE564606448C0AEA9AD03 /* IexMathIeeeExc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IexMathIeeeExc.h; path = ../../../src/OpenEXR/IexMathIeeeExc.h; sourceTree = "<group>"; };
+		41ABFC5544504CEB8C5498C2 /* ppl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ppl.h; path = ../../../src/tbb/compat/ppl.h; sourceTree = "<group>"; };
+		4256FB67FD664803838F6521 /* Diagnostics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Diagnostics.h; path = ../../../src/OpenVDB/tools/Diagnostics.h; sourceTree = "<group>"; };
+		42A4E8B6CE634AD4A6D59BC3 /* Operators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Operators.h; path = ../../../src/OpenVDB/math/Operators.h; sourceTree = "<group>"; };
+		4449DEAD8A6E44F6AA10FA25 /* IlmBaseConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IlmBaseConfig.h; path = ../../../src/OpenEXR/IlmBaseConfig.h; sourceTree = "<group>"; };
+		44741FA9C6754E7EB05BAFDE /* ImfPartHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfPartHelper.h; path = ../../../src/OpenEXR/ImfPartHelper.h; sourceTree = "<group>"; };
+		44F635FB84994FAE888C242F /* hellovdb_Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; path = hellovdb_Prefix.pch; sourceTree = "<group>"; };
+		456A510F6CCD4E8197B23702 /* LevelSetRebuild.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LevelSetRebuild.h; path = ../../../src/OpenVDB/tools/LevelSetRebuild.h; sourceTree = "<group>"; };
+		4574F06A4DA248C1932798BD /* ImathPlatform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathPlatform.h; path = ../../../src/OpenEXR/ImathPlatform.h; sourceTree = "<group>"; };
+		465BF5DBFEC749A28158A38A /* tbb_allocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tbb_allocator.h; path = ../../../src/tbb/tbb_allocator.h; sourceTree = "<group>"; };
+		467F7D462E0842558BF613CB /* parallel_reduce.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = parallel_reduce.h; path = ../../../src/tbb/parallel_reduce.h; sourceTree = "<group>"; };
+		48ADBC20775B4E2AAD7D5331 /* IlmThreadPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IlmThreadPool.h; path = ../../../src/OpenEXR/IlmThreadPool.h; sourceTree = "<group>"; };
+		4A56BB9970344CD5B7414D58 /* _tbb_windef.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _tbb_windef.h; path = ../../../src/tbb/internal/_tbb_windef.h; sourceTree = "<group>"; };
+		4AD50D9725F1486E9B2A31B1 /* parallel_do.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = parallel_do.h; path = ../../../src/tbb/parallel_do.h; sourceTree = "<group>"; };
+		4CD68FEEA515417B9C1B79DC /* MeshToVolume.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MeshToVolume.h; path = ../../../src/OpenVDB/tools/MeshToVolume.h; sourceTree = "<group>"; };
+		4CF43007194941A5A10D3ABF /* ImfAcesFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfAcesFile.h; path = ../../../src/OpenEXR/ImfAcesFile.h; sourceTree = "<group>"; };
+		4D9B0D377BCD4D14987F073A /* ImfForward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfForward.h; path = ../../../src/OpenEXR/ImfForward.h; sourceTree = "<group>"; };
+		4E68A50385BA46F1AEBF9842 /* Clip.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Clip.h; path = ../../../src/OpenVDB/tools/Clip.h; sourceTree = "<group>"; };
+		4ECF81F9FF294E43ACBE562A /* cache_aligned_allocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = cache_aligned_allocator.h; path = ../../../src/tbb/cache_aligned_allocator.h; sourceTree = "<group>"; };
+		4EFAEFDBC7EB49ECAC5DF18B /* ImathShear.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathShear.h; path = ../../../src/OpenEXR/ImathShear.h; sourceTree = "<group>"; };
+		5137CBB32F5B43D0818A8707 /* IlmThreadMutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IlmThreadMutex.h; path = ../../../src/OpenEXR/IlmThreadMutex.h; sourceTree = "<group>"; };
+		52073619414C42CF93512FF9 /* IexExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IexExport.h; path = ../../../src/OpenEXR/IexExport.h; sourceTree = "<group>"; };
+		5323E6B10EAFCA74003A9687 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = /System/Library/Frameworks/CoreVideo.framework; sourceTree = "<absolute>"; };
+		537EA8C589714AE7AA04628B /* enumerable_thread_specific.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = enumerable_thread_specific.h; path = ../../../src/tbb/enumerable_thread_specific.h; sourceTree = "<group>"; };
+		550F650587A441A6AF2D19D6 /* ImathNamespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathNamespace.h; path = ../../../src/OpenEXR/ImathNamespace.h; sourceTree = "<group>"; };
+		5516DB2D21DA4862A390FC73 /* parallel_while.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = parallel_while.h; path = ../../../src/tbb/parallel_while.h; sourceTree = "<group>"; };
+		553F4015E1A24524AAAE1896 /* halfExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = halfExport.h; path = ../../../src/OpenEXR/halfExport.h; sourceTree = "<group>"; };
+		56265EE4B19B4794BFAA21DF /* tbb_exception.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tbb_exception.h; path = ../../../src/tbb/tbb_exception.h; sourceTree = "<group>"; };
+		5670DB1F4B014F76B1936C50 /* ImfStringVectorAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfStringVectorAttribute.h; path = ../../../src/OpenEXR/ImfStringVectorAttribute.h; sourceTree = "<group>"; };
+		5690FCE6F36D4EC0823B306F /* version.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = version.h; path = ../../../src/OpenVDB/version.h; sourceTree = "<group>"; };
+		56A37BDC19294FD2ABF22184 /* ImfInputPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfInputPart.h; path = ../../../src/OpenEXR/ImfInputPart.h; sourceTree = "<group>"; };
+		57726DC8FB2443EB9CC993FB /* ImfIO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfIO.h; path = ../../../src/OpenEXR/ImfIO.h; sourceTree = "<group>"; };
+		58AA11E12DD44B9FB624AAFC /* ImfKeyCode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfKeyCode.h; path = ../../../src/OpenEXR/ImfKeyCode.h; sourceTree = "<group>"; };
+		58E3C8B653E343BDA4AB2647 /* ImfNamespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfNamespace.h; path = ../../../src/OpenEXR/ImfNamespace.h; sourceTree = "<group>"; };
+		595769A3545346A59CFCA164 /* ImathEuler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathEuler.h; path = ../../../src/OpenEXR/ImathEuler.h; sourceTree = "<group>"; };
+		598F530BC08344499FF8A689 /* Dense.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Dense.h; path = ../../../src/OpenVDB/tools/Dense.h; sourceTree = "<group>"; };
+		59DF06CF457147B381DF5AB9 /* ImathMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathMatrix.h; path = ../../../src/OpenEXR/ImathMatrix.h; sourceTree = "<group>"; };
+		5C60E5D223714447AA89284F /* PointScatter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PointScatter.h; path = ../../../src/OpenVDB/tools/PointScatter.h; sourceTree = "<group>"; };
+		5C6618241F2C4F9B8982E468 /* Mat4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Mat4.h; path = ../../../src/OpenVDB/math/Mat4.h; sourceTree = "<group>"; };
+		5CD1F4B272284D77A80060FE /* _aggregator_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _aggregator_impl.h; path = ../../../src/tbb/internal/_aggregator_impl.h; sourceTree = "<group>"; };
+		5EA764D14D4342FCADE3D04E /* IlmThreadForward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IlmThreadForward.h; path = ../../../src/OpenEXR/IlmThreadForward.h; sourceTree = "<group>"; };
+		5FF985F006D4447D83DB43E0 /* ImfInputFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfInputFile.h; path = ../../../src/OpenEXR/ImfInputFile.h; sourceTree = "<group>"; };
+		61D90D771FC440A690CB0ED0 /* PointIndexGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PointIndexGrid.h; path = ../../../src/OpenVDB/tools/PointIndexGrid.h; sourceTree = "<group>"; };
+		61ED3B646A65472C813FDAE5 /* IexMathFpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IexMathFpu.h; path = ../../../src/OpenEXR/IexMathFpu.h; sourceTree = "<group>"; };
+		61EE078C3B4B438EB6DB806E /* IexForward.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IexForward.h; path = ../../../src/OpenEXR/IexForward.h; sourceTree = "<group>"; };
+		6296005C50074401A5DA752B /* LevelSetPlatonic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LevelSetPlatonic.h; path = ../../../src/OpenVDB/tools/LevelSetPlatonic.h; sourceTree = "<group>"; };
+		66F8E83F933647EA8EF147BC /* ImfMatrixAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfMatrixAttribute.h; path = ../../../src/OpenEXR/ImfMatrixAttribute.h; sourceTree = "<group>"; };
+		679F17C8BDE74234BA06DE3B /* MultiResGrid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MultiResGrid.h; path = ../../../src/OpenVDB/tools/MultiResGrid.h; sourceTree = "<group>"; };
+		68E7621B8F6641AC8F40FDC7 /* Platform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Platform.h; path = ../../../src/OpenVDB/Platform.h; sourceTree = "<group>"; };
+		692F4352A2A34E0C930C918C /* concurrent_queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = concurrent_queue.h; path = ../../../src/tbb/concurrent_queue.h; sourceTree = "<group>"; };
+		697882B2BF194F119CB592E6 /* recursive_mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = recursive_mutex.h; path = ../../../src/tbb/recursive_mutex.h; sourceTree = "<group>"; };
+		6A4413913517423AA444686D /* Proximity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Proximity.h; path = ../../../src/OpenVDB/math/Proximity.h; sourceTree = "<group>"; };
+		6A869FB774F8419C852D1195 /* ImfChannelListAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfChannelListAttribute.h; path = ../../../src/OpenEXR/ImfChannelListAttribute.h; sourceTree = "<group>"; };
+		6AE7415CD32C4B4EAC5FAC30 /* concurrent_unordered_set.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = concurrent_unordered_set.h; path = ../../../src/tbb/concurrent_unordered_set.h; sourceTree = "<group>"; };
+		6B8B93060AE9456D8EB2D07D /* ImathBox.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathBox.h; path = ../../../src/OpenEXR/ImathBox.h; sourceTree = "<group>"; };
+		6D60520B2DF94F96B8F90C94 /* VolumeToMesh.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VolumeToMesh.h; path = ../../../src/OpenVDB/tools/VolumeToMesh.h; sourceTree = "<group>"; };
+		6FADC96B5D634BF99CB0A2CD /* ImfArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfArray.h; path = ../../../src/OpenEXR/ImfArray.h; sourceTree = "<group>"; };
+		7063AEC85111465780E01606 /* parallel_sort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = parallel_sort.h; path = ../../../src/tbb/parallel_sort.h; sourceTree = "<group>"; };
+		72A33195B606449E95C91F1A /* _range_iterator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _range_iterator.h; path = ../../../src/tbb/internal/_range_iterator.h; sourceTree = "<group>"; };
+		735839DA56694F12BC0B7AD5 /* ImathExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathExport.h; path = ../../../src/OpenEXR/ImathExport.h; sourceTree = "<group>"; };
+		73BCB103638A4CD78B07B3FB /* LevelSetAdvect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LevelSetAdvect.h; path = ../../../src/OpenVDB/tools/LevelSetAdvect.h; sourceTree = "<group>"; };
+		74AB302ED8CE461AA8A91F6D /* ImfDeepTiledOutputPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfDeepTiledOutputPart.h; path = ../../../src/OpenEXR/ImfDeepTiledOutputPart.h; sourceTree = "<group>"; };
+		752E2A97B8514132A6B7DBB6 /* LeafManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LeafManager.h; path = ../../../src/OpenVDB/tree/LeafManager.h; sourceTree = "<group>"; };
+		758AA6602CBD41A58CCADBF8 /* StringMetadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StringMetadata.h; path = ../../../src/OpenVDB/metadata/StringMetadata.h; sourceTree = "<group>"; };
+		75A271E4E9924B2E869544FB /* ImathPlane.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathPlane.h; path = ../../../src/OpenEXR/ImathPlane.h; sourceTree = "<group>"; };
+		7618C7A09D16424D96E85F8E /* DenseSparseTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DenseSparseTools.h; path = ../../../src/OpenVDB/tools/DenseSparseTools.h; sourceTree = "<group>"; };
+		77B9D2902C3045DAB719DC04 /* concurrent_priority_queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = concurrent_priority_queue.h; path = ../../../src/tbb/concurrent_priority_queue.h; sourceTree = "<group>"; };
+		78FA6988D79E48FBB7F249FA /* _tbb_strings.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _tbb_strings.h; path = ../../../src/tbb/internal/_tbb_strings.h; sourceTree = "<group>"; };
+		7925B3C8FE794341B9C493E1 /* Archive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Archive.h; path = ../../../src/OpenVDB/io/Archive.h; sourceTree = "<group>"; };
+		79635968EB3847C2A5A07F5D /* openvdb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = openvdb.h; path = ../../../src/OpenVDB/openvdb.h; sourceTree = "<group>"; };
+		799955EE1F9E488E9239DB5A /* queuing_rw_mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = queuing_rw_mutex.h; path = ../../../src/tbb/queuing_rw_mutex.h; sourceTree = "<group>"; };
+		79F6F809A6F24C739B2CD78B /* Vec4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Vec4.h; path = ../../../src/OpenVDB/math/Vec4.h; sourceTree = "<group>"; };
+		7BEFB33C6510430DB2EE8F19 /* parallel_scan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = parallel_scan.h; path = ../../../src/tbb/parallel_scan.h; sourceTree = "<group>"; };
+		7C0A1F25845944C8AE300F26 /* ImfLineOrderAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfLineOrderAttribute.h; path = ../../../src/OpenEXR/ImfLineOrderAttribute.h; sourceTree = "<group>"; };
+		7C1AE7790FFE486A992ED49D /* ImfChromaticitiesAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfChromaticitiesAttribute.h; path = ../../../src/OpenEXR/ImfChromaticitiesAttribute.h; sourceTree = "<group>"; };
+		7C2E1616DD424B14BEA67E0C /* ImfFrameBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfFrameBuffer.h; path = ../../../src/OpenEXR/ImfFrameBuffer.h; sourceTree = "<group>"; };
+		7D1CE328C2E84B1593399AAE /* Transform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Transform.h; path = ../../../src/OpenVDB/math/Transform.h; sourceTree = "<group>"; };
+		7DBF5CEE6232420685390AE5 /* Filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Filter.h; path = ../../../src/OpenVDB/tools/Filter.h; sourceTree = "<group>"; };
+		7ED6FBDA092E4BF5913D5344 /* task_arena.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = task_arena.h; path = ../../../src/tbb/task_arena.h; sourceTree = "<group>"; };
+		7F1E82AF8B764B2B91118717 /* DDA.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DDA.h; path = ../../../src/OpenVDB/math/DDA.h; sourceTree = "<group>"; };
+		7FF93244313E4406904AD298 /* null_mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = null_mutex.h; path = ../../../src/tbb/null_mutex.h; sourceTree = "<group>"; };
+		8030BE53935C450E8DDF317D /* ImfDeepImageStateAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfDeepImageStateAttribute.h; path = ../../../src/OpenEXR/ImfDeepImageStateAttribute.h; sourceTree = "<group>"; };
+		81CD720E6B684F48A7123EA5 /* ImfRgbaYca.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfRgbaYca.h; path = ../../../src/OpenEXR/ImfRgbaYca.h; sourceTree = "<group>"; };
+		82A2FCB64C364ABBBBD13402 /* ImfTiledRgbaFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfTiledRgbaFile.h; path = ../../../src/OpenEXR/ImfTiledRgbaFile.h; sourceTree = "<group>"; };
+		82CE5EB39C9C4D53B06D7E6E /* windows_ia32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = windows_ia32.h; path = ../../../src/tbb/machine/windows_ia32.h; sourceTree = "<group>"; };
+		8300CCDA5E6A458F9D553C20 /* LevelSetUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LevelSetUtil.h; path = ../../../src/OpenVDB/tools/LevelSetUtil.h; sourceTree = "<group>"; };
+		837A1F37B6AC4515B70AAEEA /* windows_api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = windows_api.h; path = ../../../src/tbb/machine/windows_api.h; sourceTree = "<group>"; };
+		83A0EE6C9C264381B832026A /* _template_helpers.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _template_helpers.h; path = ../../../src/tbb/internal/_template_helpers.h; sourceTree = "<group>"; };
+		83A737B2A7584D288A7295C4 /* linux_intel64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = linux_intel64.h; path = ../../../src/tbb/machine/linux_intel64.h; sourceTree = "<group>"; };
+		84148316A9D149C5B39FE908 /* IexMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IexMacros.h; path = ../../../src/OpenEXR/IexMacros.h; sourceTree = "<group>"; };
+		851281317D9B43108CDFCF6F /* ImathMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathMath.h; path = ../../../src/OpenEXR/ImathMath.h; sourceTree = "<group>"; };
+		8516B7C5441045F3ACCC88AB /* NodeMasks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NodeMasks.h; path = ../../../src/OpenVDB/util/NodeMasks.h; sourceTree = "<group>"; };
+		853AF0516CB34BEABBFA4BD2 /* ImathLineAlgo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathLineAlgo.h; path = ../../../src/OpenEXR/ImathLineAlgo.h; sourceTree = "<group>"; };
+		85BE2D88CE3943B3B5FFC28E /* ImfDeepFrameBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfDeepFrameBuffer.h; path = ../../../src/OpenEXR/ImfDeepFrameBuffer.h; sourceTree = "<group>"; };
+		863561C6A82041BEAF428DE5 /* ImfInt64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfInt64.h; path = ../../../src/OpenEXR/ImfInt64.h; sourceTree = "<group>"; };
+		86A77FA4677744448278E4B1 /* Morphology.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Morphology.h; path = ../../../src/OpenVDB/tools/Morphology.h; sourceTree = "<group>"; };
+		8749621EC31040BAB7BB8CC9 /* NodeUnion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NodeUnion.h; path = ../../../src/OpenVDB/tree/NodeUnion.h; sourceTree = "<group>"; };
+		874EE7A62D074ACF83B66462 /* ImfMultiPartOutputFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfMultiPartOutputFile.h; path = ../../../src/OpenEXR/ImfMultiPartOutputFile.h; sourceTree = "<group>"; };
+		8858363535F1469BA55C00DF /* ImfIntAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfIntAttribute.h; path = ../../../src/OpenEXR/ImfIntAttribute.h; sourceTree = "<group>"; };
+		8BA337AD4A0A45749C14A189 /* ImfCRgbaFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfCRgbaFile.h; path = ../../../src/OpenEXR/ImfCRgbaFile.h; sourceTree = "<group>"; };
+		8C9B552CCA3F4525BCAA9C07 /* ImfFloatAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfFloatAttribute.h; path = ../../../src/OpenEXR/ImfFloatAttribute.h; sourceTree = "<group>"; };
+		8CDBF1183ADF46C1AB24AEDC /* ImfMisc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfMisc.h; path = ../../../src/OpenEXR/ImfMisc.h; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* hellovdb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hellovdb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E37C19B129D4F4C8C0E57BE /* Metadata.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Metadata.h; path = ../../../src/OpenVDB/Metadata.h; sourceTree = "<group>"; };
+		8E569F3CAF8D4DAA8108B37F /* hellovdbApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = hellovdbApp.cpp; path = ../src/hellovdbApp.cpp; sourceTree = "<group>"; };
+		90CBCFC9B58C48D8B918891B /* ImfCompression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfCompression.h; path = ../../../src/OpenEXR/ImfCompression.h; sourceTree = "<group>"; };
+		923F1AE8525B4BDDA4DD852C /* ImathInterval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathInterval.h; path = ../../../src/OpenEXR/ImathInterval.h; sourceTree = "<group>"; };
+		92C7DDF9C1A34F55B2A179DE /* Mat3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Mat3.h; path = ../../../src/OpenVDB/math/Mat3.h; sourceTree = "<group>"; };
+		933D039F6A884D279A79293E /* IexErrnoExc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IexErrnoExc.h; path = ../../../src/OpenEXR/IexErrnoExc.h; sourceTree = "<group>"; };
+		93657C70042340BCAB0004BB /* queuing_mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = queuing_mutex.h; path = ../../../src/tbb/queuing_mutex.h; sourceTree = "<group>"; };
+		93664EFF8A0B41EFA09D8D0F /* libopenvdb.3.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "\"\""; name = libopenvdb.3.2.0.dylib; path = ../../../libs/macosx/OpenVDB/libopenvdb.3.2.0.dylib; sourceTree = "<group>"; };
+		939961E645614B8CAA6E7256 /* LevelSetMorph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LevelSetMorph.h; path = ../../../src/OpenVDB/tools/LevelSetMorph.h; sourceTree = "<group>"; };
+		94D0CEB0571A4BDE94F86CF3 /* RayIntersector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RayIntersector.h; path = ../../../src/OpenVDB/tools/RayIntersector.h; sourceTree = "<group>"; };
+		94D7B79FF67A42F4878B1E1A /* ImfPartType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfPartType.h; path = ../../../src/OpenEXR/ImfPartType.h; sourceTree = "<group>"; };
+		9503FB53791D48A398C73ECB /* ImathSphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathSphere.h; path = ../../../src/OpenEXR/ImathSphere.h; sourceTree = "<group>"; };
+		9508C381A54040F6AA970F67 /* concurrent_vector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = concurrent_vector.h; path = ../../../src/tbb/concurrent_vector.h; sourceTree = "<group>"; };
+		9520862EA1D246CFAEF1502E /* Tuple.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Tuple.h; path = ../../../src/OpenVDB/math/Tuple.h; sourceTree = "<group>"; };
+		95F9A3AE313C4464983F4484 /* Formats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Formats.h; path = ../../../src/OpenVDB/util/Formats.h; sourceTree = "<group>"; };
+		96AEA33DCA1D4D078AA7F823 /* concurrent_hash_map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = concurrent_hash_map.h; path = ../../../src/tbb/concurrent_hash_map.h; sourceTree = "<group>"; };
+		988370A1171A49DBA800C4C2 /* macos_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = macos_common.h; path = ../../../src/tbb/machine/macos_common.h; sourceTree = "<group>"; };
+		989EF70AE45C4A4D8CD13E52 /* xbox360_ppc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = xbox360_ppc.h; path = ../../../src/tbb/machine/xbox360_ppc.h; sourceTree = "<group>"; };
+		98E6D98F682144CF899F5810 /* ImfHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfHeader.h; path = ../../../src/OpenEXR/ImfHeader.h; sourceTree = "<group>"; };
+		9994827D821641BEAACD0D2E /* concurrent_lru_cache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = concurrent_lru_cache.h; path = ../../../src/tbb/concurrent_lru_cache.h; sourceTree = "<group>"; };
+		99DDD6FD991B4937A19FD2F9 /* Exceptions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Exceptions.h; path = ../../../src/OpenVDB/Exceptions.h; sourceTree = "<group>"; };
+		9A2E0C9616A74A4095D179B6 /* Vec3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Vec3.h; path = ../../../src/OpenVDB/math/Vec3.h; sourceTree = "<group>"; };
+		9A5C1829E3C0406E89E399B6 /* task_scheduler_init.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = task_scheduler_init.h; path = ../../../src/tbb/task_scheduler_init.h; sourceTree = "<group>"; };
+		9BC97B1F5E934976A1A70A2E /* ImfPixelType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfPixelType.h; path = ../../../src/OpenEXR/ImfPixelType.h; sourceTree = "<group>"; };
+		9C12D5A8F8A1434CA3E212F6 /* parallel_for.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = parallel_for.h; path = ../../../src/tbb/parallel_for.h; sourceTree = "<group>"; };
+		9C2706104B7540A29D57D255 /* IexNamespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IexNamespace.h; path = ../../../src/OpenEXR/IexNamespace.h; sourceTree = "<group>"; };
+		9C4C8572C14A49E48AE225A1 /* File.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = File.h; path = ../../../src/OpenVDB/io/File.h; sourceTree = "<group>"; };
+		9D274BB685E24019851BE82D /* aggregator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = aggregator.h; path = ../../../src/tbb/aggregator.h; sourceTree = "<group>"; };
+		9E3164741D3E4A02AA0207B6 /* InternalNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = InternalNode.h; path = ../../../src/OpenVDB/tree/InternalNode.h; sourceTree = "<group>"; };
+		9E425867EC2048EBBCE500C3 /* Stream.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Stream.h; path = ../../../src/OpenVDB/io/Stream.h; sourceTree = "<group>"; };
+		9F368EEB49CA427487DDD573 /* icc_generic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = icc_generic.h; path = ../../../src/tbb/machine/icc_generic.h; sourceTree = "<group>"; };
+		9FD7CE53B56E4AF4BC26FCAB /* tbb_thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tbb_thread.h; path = ../../../src/tbb/tbb_thread.h; sourceTree = "<group>"; };
+		A094D8F6BCF745CEA4780D15 /* ImathLine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathLine.h; path = ../../../src/OpenEXR/ImathLine.h; sourceTree = "<group>"; };
+		A0EB08BD2A334F7C944E618B /* tbb_config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tbb_config.h; path = ../../../src/tbb/tbb_config.h; sourceTree = "<group>"; };
+		A1742C29395A42DF8393EA8B /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Queue.h; path = ../../../src/OpenVDB/io/Queue.h; sourceTree = "<group>"; };
+		A2FD368C445B4E8B8CF64946 /* LegacyFrustum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LegacyFrustum.h; path = ../../../src/OpenVDB/math/LegacyFrustum.h; sourceTree = "<group>"; };
+		A3672C61A6044C2FA8AA64C0 /* runtime_loader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = runtime_loader.h; path = ../../../src/tbb/runtime_loader.h; sourceTree = "<group>"; };
+		A36FE145B5554B51AF7D6652 /* ImfTileDescription.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfTileDescription.h; path = ../../../src/OpenEXR/ImfTileDescription.h; sourceTree = "<group>"; };
+		A3EFC4025A65454081D3F997 /* ParticlesToLevelSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ParticlesToLevelSet.h; path = ../../../src/OpenVDB/tools/ParticlesToLevelSet.h; sourceTree = "<group>"; };
+		A4DDE46E27894CA9AFE80E65 /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_system.dylib; path = ../../../libs/macosx/Boost/libboost_system.dylib; sourceTree = "<group>"; };
+		A5AB2BB31B674DBDB6FFAA14 /* ImathFrustum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathFrustum.h; path = ../../../src/OpenEXR/ImathFrustum.h; sourceTree = "<group>"; };
+		A607BCCF128B49C3B387CBCB /* IlmThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IlmThread.h; path = ../../../src/OpenEXR/IlmThread.h; sourceTree = "<group>"; };
+		A641DB7C658446799EDF9575 /* MapsUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MapsUtil.h; path = ../../../src/OpenVDB/util/MapsUtil.h; sourceTree = "<group>"; };
+		A83B60E132B24BE1BD062D6A /* ImfThreading.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfThreading.h; path = ../../../src/OpenEXR/ImfThreading.h; sourceTree = "<group>"; };
+		A9E2F5D2C90C42D59DE372F1 /* half.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = half.h; path = ../../../src/OpenEXR/half.h; sourceTree = "<group>"; };
+		A9FC1CC932C9427D854A3B4D /* GridDescriptor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GridDescriptor.h; path = ../../../src/OpenVDB/io/GridDescriptor.h; sourceTree = "<group>"; };
+		AADA3A60C9E24857BCB8E2F6 /* Coord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Coord.h; path = ../../../src/OpenVDB/math/Coord.h; sourceTree = "<group>"; };
+		ABC86EE7DE8041C2A6C4DF9B /* _x86_eliding_mutex_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _x86_eliding_mutex_impl.h; path = ../../../src/tbb/internal/_x86_eliding_mutex_impl.h; sourceTree = "<group>"; };
+		ABCBB6D36F2B4A22A37A9E0D /* memory_pool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = memory_pool.h; path = ../../../src/tbb/memory_pool.h; sourceTree = "<group>"; };
+		AC79DD9FF25242BFABAC1505 /* ImathVecAlgo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathVecAlgo.h; path = ../../../src/OpenEXR/ImathVecAlgo.h; sourceTree = "<group>"; };
+		AC8A2C01DB4C42B8B5B4270F /* Name.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Name.h; path = ../../../src/OpenVDB/util/Name.h; sourceTree = "<group>"; };
+		AC90F12BA5FD49F2B5A02DFA /* blocked_range2d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = blocked_range2d.h; path = ../../../src/tbb/blocked_range2d.h; sourceTree = "<group>"; };
+		ACD7CB054DC24CA586ADAD82 /* aligned_space.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = aligned_space.h; path = ../../../src/tbb/aligned_space.h; sourceTree = "<group>"; };
+		ACEC256D92BD4F4FB58ADEAB /* NodeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NodeManager.h; path = ../../../src/OpenVDB/tree/NodeManager.h; sourceTree = "<group>"; };
+		AE3281EE04704147AEBAA90E /* IlmThreadSemaphore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IlmThreadSemaphore.h; path = ../../../src/OpenEXR/IlmThreadSemaphore.h; sourceTree = "<group>"; };
+		AE3F7A9247ED41A69DAC992F /* ImfGenericInputFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfGenericInputFile.h; path = ../../../src/OpenEXR/ImfGenericInputFile.h; sourceTree = "<group>"; };
+		AE99C3E9FC704C8F8489CCF8 /* ImathExc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathExc.h; path = ../../../src/OpenEXR/ImathExc.h; sourceTree = "<group>"; };
+		AE9C3CE180E646C59C13BB7A /* linux_ia32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = linux_ia32.h; path = ../../../src/tbb/machine/linux_ia32.h; sourceTree = "<group>"; };
+		B08FB3A9BF6D4DE2B6D67956 /* Compression.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Compression.h; path = ../../../src/OpenVDB/io/Compression.h; sourceTree = "<group>"; };
+		B15627EFEEDF4CF6ABEDFC0C /* ImathRoots.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathRoots.h; path = ../../../src/OpenEXR/ImathRoots.h; sourceTree = "<group>"; };
+		B30CE347B12046D9BE7A2D68 /* ImfOpaqueAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfOpaqueAttribute.h; path = ../../../src/OpenEXR/ImfOpaqueAttribute.h; sourceTree = "<group>"; };
+		B410BF6F5C4D4F9D995F26F3 /* ImfXdr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfXdr.h; path = ../../../src/OpenEXR/ImfXdr.h; sourceTree = "<group>"; };
+		B68E35E7EA7D443AB08D15EC /* Interpolation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Interpolation.h; path = ../../../src/OpenVDB/tools/Interpolation.h; sourceTree = "<group>"; };
+		B6E2EC2552A1403DA0195E03 /* ImfDeepScanLineOutputFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfDeepScanLineOutputFile.h; path = ../../../src/OpenEXR/ImfDeepScanLineOutputFile.h; sourceTree = "<group>"; };
+		B8EED20271DA44E1887EE735 /* spin_mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = spin_mutex.h; path = ../../../src/tbb/spin_mutex.h; sourceTree = "<group>"; };
+		B92D334473704446B3E17FDC /* mutex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mutex.h; path = ../../../src/tbb/mutex.h; sourceTree = "<group>"; };
+		BCC462B9739B483893BCB4AB /* ImfOutputPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfOutputPart.h; path = ../../../src/OpenEXR/ImfOutputPart.h; sourceTree = "<group>"; };
+		BDC0A292DCE74970A5071CB4 /* _flow_graph_indexer_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _flow_graph_indexer_impl.h; path = ../../../src/tbb/internal/_flow_graph_indexer_impl.h; sourceTree = "<group>"; };
+		BE74EA93A740410FAAC60EC1 /* mac_ppc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mac_ppc.h; path = ../../../src/tbb/machine/mac_ppc.h; sourceTree = "<group>"; };
+		BEFA0EAA7FA0486CABB40AA8 /* windows_intel64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = windows_intel64.h; path = ../../../src/tbb/machine/windows_intel64.h; sourceTree = "<group>"; };
+		BF1A4BA4225049D6A219103E /* msvc_ia32_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = msvc_ia32_common.h; path = ../../../src/tbb/machine/msvc_ia32_common.h; sourceTree = "<group>"; };
+		BFA960E67DD84CAB9C09A286 /* ImfVersion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfVersion.h; path = ../../../src/OpenEXR/ImfVersion.h; sourceTree = "<group>"; };
+		C04ADF08AE434A579ACF6A57 /* ImfDeepCompositing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfDeepCompositing.h; path = ../../../src/OpenEXR/ImfDeepCompositing.h; sourceTree = "<group>"; };
+		C1EA03D8AE3C48B8808FA9D4 /* ImfTimeCodeAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfTimeCodeAttribute.h; path = ../../../src/OpenEXR/ImfTimeCodeAttribute.h; sourceTree = "<group>"; };
+		C3293D42326744DBA6659F2F /* linux_ia64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = linux_ia64.h; path = ../../../src/tbb/machine/linux_ia64.h; sourceTree = "<group>"; };
+		C4188ED15A6541C196B56B35 /* ImfName.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfName.h; path = ../../../src/OpenEXR/ImfName.h; sourceTree = "<group>"; };
+		C43F1D78709C4F21AB5B4B81 /* ImfDeepScanLineInputFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfDeepScanLineInputFile.h; path = ../../../src/OpenEXR/ImfDeepScanLineInputFile.h; sourceTree = "<group>"; };
+		C4F698D9BF48464E85D69BC4 /* tbbmalloc_proxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tbbmalloc_proxy.h; path = ../../../src/tbb/tbbmalloc_proxy.h; sourceTree = "<group>"; };
+		C5F9120F7B0348218A03E1FD /* LeafNodeMask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LeafNodeMask.h; path = ../../../src/OpenVDB/tree/LeafNodeMask.h; sourceTree = "<group>"; };
+		C70C8A3A109C4E97BEBE18AE /* TempFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TempFile.h; path = ../../../src/OpenVDB/io/TempFile.h; sourceTree = "<group>"; };
+		C7FA578804B9408385D1D214 /* VolumeToSpheres.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VolumeToSpheres.h; path = ../../../src/OpenVDB/tools/VolumeToSpheres.h; sourceTree = "<group>"; };
+		C8711A2BAE8542E1A148A04C /* SignedFloodFill.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SignedFloodFill.h; path = ../../../src/OpenVDB/tools/SignedFloodFill.h; sourceTree = "<group>"; };
+		C90EB2AA50B243E9B8B4B16B /* ImfBoxAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfBoxAttribute.h; path = ../../../src/OpenEXR/ImfBoxAttribute.h; sourceTree = "<group>"; };
+		C9266B703BAC4AEAB86EA3A5 /* ConjGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ConjGradient.h; path = ../../../src/OpenVDB/math/ConjGradient.h; sourceTree = "<group>"; };
+		CA474FA90D6B42E589993FCD /* VelocityFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VelocityFields.h; path = ../../../src/OpenVDB/tools/VelocityFields.h; sourceTree = "<group>"; };
+		CBBB80F03747458EAA10B07D /* ChangeBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ChangeBackground.h; path = ../../../src/OpenVDB/tools/ChangeBackground.h; sourceTree = "<group>"; };
+		CD775216B4B841E7B4C500AD /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Util.h; path = ../../../src/OpenVDB/util/Util.h; sourceTree = "<group>"; };
+		CF19259B560343E9B3954873 /* concurrent_unordered_map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = concurrent_unordered_map.h; path = ../../../src/tbb/concurrent_unordered_map.h; sourceTree = "<group>"; };
+		CF719C3596BC4953B99C3322 /* ImfDeepScanLineOutputPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfDeepScanLineOutputPart.h; path = ../../../src/OpenEXR/ImfDeepScanLineOutputPart.h; sourceTree = "<group>"; };
+		D466EB00D47C407AAD772FA1 /* ImfOutputFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfOutputFile.h; path = ../../../src/OpenEXR/ImfOutputFile.h; sourceTree = "<group>"; };
+		D4D8B64A77C14128BBB49F89 /* ImfDoubleAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfDoubleAttribute.h; path = ../../../src/OpenEXR/ImfDoubleAttribute.h; sourceTree = "<group>"; };
+		D59254F6FECC4B10AF5351D6 /* MaskToLevelSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MaskToLevelSet.h; path = ../../../src/OpenVDB/tools/MaskToLevelSet.h; sourceTree = "<group>"; };
+		D5AE048161824BD99B209D3F /* Stats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Stats.h; path = ../../../src/OpenVDB/math/Stats.h; sourceTree = "<group>"; };
+		D617201BA7314DF69D3A445B /* parallel_invoke.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = parallel_invoke.h; path = ../../../src/tbb/parallel_invoke.h; sourceTree = "<group>"; };
+		D6E74EF1D1A9439B975CA053 /* ImfExport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfExport.h; path = ../../../src/OpenEXR/ImfExport.h; sourceTree = "<group>"; };
+		D705C2814C0E450EB61DD9D9 /* ImathFrustumTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathFrustumTest.h; path = ../../../src/OpenEXR/ImathFrustumTest.h; sourceTree = "<group>"; };
+		D73CDD271B834473A9561E3D /* critical_section.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = critical_section.h; path = ../../../src/tbb/critical_section.h; sourceTree = "<group>"; };
+		D88932E2B6C54AEF8ADD8E6D /* task_scheduler_observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = task_scheduler_observer.h; path = ../../../src/tbb/task_scheduler_observer.h; sourceTree = "<group>"; };
+		D8957F074E5F4CD882D45D97 /* PointAdvect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PointAdvect.h; path = ../../../src/OpenVDB/tools/PointAdvect.h; sourceTree = "<group>"; };
+		D8E688B9C6DB4B4F9539117A /* Stencils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Stencils.h; path = ../../../src/OpenVDB/math/Stencils.h; sourceTree = "<group>"; };
+		DA59A68D82B54BC1A7E0F691 /* ImathHalfLimits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathHalfLimits.h; path = ../../../src/OpenEXR/ImathHalfLimits.h; sourceTree = "<group>"; };
+		DACAE5A24394438EB48F9A26 /* gcc_itsx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = gcc_itsx.h; path = ../../../src/tbb/machine/gcc_itsx.h; sourceTree = "<group>"; };
+		DAEA6E934F754AC7AB676F83 /* RootNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RootNode.h; path = ../../../src/OpenVDB/tree/RootNode.h; sourceTree = "<group>"; };
+		DBA1ED34394F46E385C59653 /* libboost_iostreams.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_iostreams.dylib; path = ../../../libs/macosx/Boost/libboost_iostreams.dylib; sourceTree = "<group>"; };
+		DC275D2E8C764B62AFFC16A6 /* ImfDeepTiledInputFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfDeepTiledInputFile.h; path = ../../../src/OpenEXR/ImfDeepTiledInputFile.h; sourceTree = "<group>"; };
+		DD2D8081397940E6AFF485DB /* _flow_graph_join_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _flow_graph_join_impl.h; path = ../../../src/tbb/internal/_flow_graph_join_impl.h; sourceTree = "<group>"; };
+		DDC6658E0D984E839E7EB435 /* LevelSetFilter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LevelSetFilter.h; path = ../../../src/OpenVDB/tools/LevelSetFilter.h; sourceTree = "<group>"; };
+		DF5E0A7CE3024E7C88406A1E /* ImathGL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathGL.h; path = ../../../src/OpenEXR/ImathGL.h; sourceTree = "<group>"; };
+		E161EC1B994543539A0A387D /* ImfEnvmap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfEnvmap.h; path = ../../../src/OpenEXR/ImfEnvmap.h; sourceTree = "<group>"; };
+		E195F5256A0842E290308D2C /* ImfLineOrder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfLineOrder.h; path = ../../../src/OpenEXR/ImfLineOrder.h; sourceTree = "<group>"; };
+		E1C75304FA544DE7BFF40711 /* _flow_graph_tagged_buffer_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _flow_graph_tagged_buffer_impl.h; path = ../../../src/tbb/internal/_flow_graph_tagged_buffer_impl.h; sourceTree = "<group>"; };
+		E32A589E5F7249C3A6721225 /* ImfPreviewImageAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfPreviewImageAttribute.h; path = ../../../src/OpenEXR/ImfPreviewImageAttribute.h; sourceTree = "<group>"; };
+		E4D5AC493D4E4077951B0D74 /* VolumeAdvect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = VolumeAdvect.h; path = ../../../src/OpenVDB/tools/VolumeAdvect.h; sourceTree = "<group>"; };
+		E4DA0FE4AD0945E883BB5C34 /* ImathGLU.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathGLU.h; path = ../../../src/OpenEXR/ImathGLU.h; sourceTree = "<group>"; };
+		E4DF39AEBE504934B4A67EE7 /* _flow_graph_node_impl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = _flow_graph_node_impl.h; path = ../../../src/tbb/internal/_flow_graph_node_impl.h; sourceTree = "<group>"; };
+		E5D7F4543357480CB6C3EC76 /* ImfMultiPartInputFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfMultiPartInputFile.h; path = ../../../src/OpenEXR/ImfMultiPartInputFile.h; sourceTree = "<group>"; };
+		E60303278BA047C2B2042A74 /* linux_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = linux_common.h; path = ../../../src/tbb/machine/linux_common.h; sourceTree = "<group>"; };
+		E64A558497D14CE4B6AEE4FE /* Tree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Tree.h; path = ../../../src/OpenVDB/tree/Tree.h; sourceTree = "<group>"; };
+		E658040AA7D6455AAD0E6FFE /* ImfHuf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfHuf.h; path = ../../../src/OpenEXR/ImfHuf.h; sourceTree = "<group>"; };
+		E74E64CB203642B2BF2EC073 /* ImathRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathRandom.h; path = ../../../src/OpenEXR/ImathRandom.h; sourceTree = "<group>"; };
+		E99465E2131F460E85A86A95 /* ImfDeepTiledInputPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfDeepTiledInputPart.h; path = ../../../src/OpenEXR/ImfDeepTiledInputPart.h; sourceTree = "<group>"; };
+		EB2046E6022B4972BFFD28E6 /* MetaMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MetaMap.h; path = ../../../src/OpenVDB/metadata/MetaMap.h; sourceTree = "<group>"; };
+		EB4DDEA1C4544A89BBD13D56 /* tick_count.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tick_count.h; path = ../../../src/tbb/tick_count.h; sourceTree = "<group>"; };
+		EBDC1C01633E4F51BDFA5EF9 /* IlmThreadNamespace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IlmThreadNamespace.h; path = ../../../src/OpenEXR/IlmThreadNamespace.h; sourceTree = "<group>"; };
+		EBE215A2A2E848608AEDDA86 /* io.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = io.h; path = ../../../src/OpenVDB/io/io.h; sourceTree = "<group>"; };
+		EC6CBEAA9A04436C9E2EF6A0 /* halfLimits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = halfLimits.h; path = ../../../src/OpenEXR/halfLimits.h; sourceTree = "<group>"; };
+		ECFB8EF0306A42FF8A6693BF /* IexBaseExc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = IexBaseExc.h; path = ../../../src/OpenEXR/IexBaseExc.h; sourceTree = "<group>"; };
+		ED22FEECB5AB4D0DB7A9B89B /* mic_common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = mic_common.h; path = ../../../src/tbb/machine/mic_common.h; sourceTree = "<group>"; };
+		EDE717384A564E95AC13A8C3 /* ImathBoxAlgo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathBoxAlgo.h; path = ../../../src/OpenEXR/ImathBoxAlgo.h; sourceTree = "<group>"; };
+		EEE827FB5F2849DEBE4652D9 /* LeafNodeBool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LeafNodeBool.h; path = ../../../src/OpenVDB/tree/LeafNodeBool.h; sourceTree = "<group>"; };
+		EEFF77D6BBB24D0DA04E05C7 /* ImathVec.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImathVec.h; path = ../../../src/OpenEXR/ImathVec.h; sourceTree = "<group>"; };
+		EF06358ADB2E404EA40B720D /* ImfTileDescriptionAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfTileDescriptionAttribute.h; path = ../../../src/OpenEXR/ImfTileDescriptionAttribute.h; sourceTree = "<group>"; };
+		EFB96638B09A4E7893916970 /* parallel_for_each.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = parallel_for_each.h; path = ../../../src/tbb/parallel_for_each.h; sourceTree = "<group>"; };
+		EFC6762ADC9A463195B32141 /* ImfDeepImageState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfDeepImageState.h; path = ../../../src/OpenEXR/ImfDeepImageState.h; sourceTree = "<group>"; };
+		EFC72386059F4E16A1D34C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3B22D3FAD674C0DB4DFAE49 /* ImfChromaticities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfChromaticities.h; path = ../../../src/OpenEXR/ImfChromaticities.h; sourceTree = "<group>"; };
+		F433FC1533214F978617FFE9 /* logging.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = logging.h; path = ../../../src/OpenVDB/util/logging.h; sourceTree = "<group>"; };
+		F468D4517AB24371AB7A48B5 /* LeafNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LeafNode.h; path = ../../../src/OpenVDB/tree/LeafNode.h; sourceTree = "<group>"; };
+		F5214026025943F98D8D0BA6 /* ImfTiledInputPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfTiledInputPart.h; path = ../../../src/OpenEXR/ImfTiledInputPart.h; sourceTree = "<group>"; };
+		F56B4E68CBEA4149B96360AC /* Ray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Ray.h; path = ../../../src/OpenVDB/math/Ray.h; sourceTree = "<group>"; };
+		F5CE4AC2F6294DDAB2A34B59 /* OpenEXRConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = OpenEXRConfig.h; path = ../../../src/OpenEXR/OpenEXRConfig.h; sourceTree = "<group>"; };
+		F6F5D429766C464C8C786E0B /* ImfDeepScanLineInputPart.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfDeepScanLineInputPart.h; path = ../../../src/OpenEXR/ImfDeepScanLineInputPart.h; sourceTree = "<group>"; };
+		F76867A7F5BB4EE19A84F8E0 /* task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = task.h; path = ../../../src/tbb/task.h; sourceTree = "<group>"; };
+		FACAEF38ACB247FAB348240A /* LevelSetMeasure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LevelSetMeasure.h; path = ../../../src/OpenVDB/tools/LevelSetMeasure.h; sourceTree = "<group>"; };
+		FAD1FD3EAC0F425B87C30B2E /* RayTracer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = RayTracer.h; path = ../../../src/OpenVDB/tools/RayTracer.h; sourceTree = "<group>"; };
+		FB3AFC03A5E745D5B02635F2 /* ibm_aix51.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ibm_aix51.h; path = ../../../src/tbb/machine/ibm_aix51.h; sourceTree = "<group>"; };
+		FB8806DF951D4B47AAD81691 /* libtbb.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbb.dylib; path = ../../../libs/macosx/tbb/libtbb.dylib; sourceTree = "<group>"; };
+		FBAE66778CC64B1D8BDF21A6 /* GridOperators.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GridOperators.h; path = ../../../src/OpenVDB/tools/GridOperators.h; sourceTree = "<group>"; };
+		FBF6842F050742B79D87C197 /* LevelSetSphere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = LevelSetSphere.h; path = ../../../src/OpenVDB/tools/LevelSetSphere.h; sourceTree = "<group>"; };
+		FD3AB03450434213A7D776C1 /* PointPartitioner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PointPartitioner.h; path = ../../../src/OpenVDB/tools/PointPartitioner.h; sourceTree = "<group>"; };
+		FD55B1E463F74975A8607133 /* Math.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Math.h; path = ../../../src/OpenVDB/math/Math.h; sourceTree = "<group>"; };
+		FDE08F3E60B94358BAEAA8E7 /* ImfFramesPerSecond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfFramesPerSecond.h; path = ../../../src/OpenEXR/ImfFramesPerSecond.h; sourceTree = "<group>"; };
+		FEA3BBAC316240E3A53C4057 /* ImfRgba.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ImfRgba.h; path = ../../../src/OpenEXR/ImfRgba.h; sourceTree = "<group>"; };
+		FEF597198FCC4696AABC9EB1 /* pipeline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = pipeline.h; path = ../../../src/tbb/pipeline.h; sourceTree = "<group>"; };
+		FFD6D4C9E6CF42D19BEDB98F /* blocked_range3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = blocked_range3d.h; path = ../../../src/tbb/blocked_range3d.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				006D720419952D00008149E2 /* AVFoundation.framework in Frameworks */,
+				006D720519952D00008149E2 /* CoreMedia.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				0091D8F90E81B9330029341E /* OpenGL.framework in Frameworks */,
+				5323E6B20EAFCA74003A9687 /* CoreVideo.framework in Frameworks */,
+				00B784B30FF439BC000DE1D7 /* Accelerate.framework in Frameworks */,
+				00B784B40FF439BC000DE1D7 /* AudioToolbox.framework in Frameworks */,
+				00B784B50FF439BC000DE1D7 /* AudioUnit.framework in Frameworks */,
+				00B784B60FF439BC000DE1D7 /* CoreAudio.framework in Frameworks */,
+				00B9955A1B128DF400A5C623 /* IOKit.framework in Frameworks */,
+				00B9955B1B128DF400A5C623 /* IOSurface.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B97315FEAEA392516A2CEA /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				B778C2A8FDED456192B90323 /* OpenVDB */,
+			);
+			name = Blocks;
+			sourceTree = "<group>";
+		};
+		080E96DDFE201D6D7F000001 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				8E569F3CAF8D4DAA8108B37F /* hellovdbApp.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				006D720219952D00008149E2 /* AVFoundation.framework */,
+				006D720319952D00008149E2 /* CoreMedia.framework */,
+				00B784AF0FF439BC000DE1D7 /* Accelerate.framework */,
+				00B784B00FF439BC000DE1D7 /* AudioToolbox.framework */,
+				00B784B10FF439BC000DE1D7 /* AudioUnit.framework */,
+				00B784B20FF439BC000DE1D7 /* CoreAudio.framework */,
+				5323E6B10EAFCA74003A9687 /* CoreVideo.framework */,
+				0091D8F80E81B9330029341E /* OpenGL.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				00B995581B128DF400A5C623 /* IOKit.framework */,
+				00B995591B128DF400A5C623 /* IOSurface.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		18809E78D2C74A93A76B0712 /* tbb */ = {
+			isa = PBXGroup;
+			children = (
+				9D274BB685E24019851BE82D /* aggregator.h */,
+				ACD7CB054DC24CA586ADAD82 /* aligned_space.h */,
+				3387C84BF7E442E69DBC460F /* atomic.h */,
+				0D82138A5B1141A9A68CDB3F /* blocked_range.h */,
+				AC90F12BA5FD49F2B5A02DFA /* blocked_range2d.h */,
+				FFD6D4C9E6CF42D19BEDB98F /* blocked_range3d.h */,
+				4ECF81F9FF294E43ACBE562A /* cache_aligned_allocator.h */,
+				295757F181BA4600AD93A628 /* combinable.h */,
+				96AEA33DCA1D4D078AA7F823 /* concurrent_hash_map.h */,
+				9994827D821641BEAACD0D2E /* concurrent_lru_cache.h */,
+				77B9D2902C3045DAB719DC04 /* concurrent_priority_queue.h */,
+				692F4352A2A34E0C930C918C /* concurrent_queue.h */,
+				CF19259B560343E9B3954873 /* concurrent_unordered_map.h */,
+				6AE7415CD32C4B4EAC5FAC30 /* concurrent_unordered_set.h */,
+				9508C381A54040F6AA970F67 /* concurrent_vector.h */,
+				D73CDD271B834473A9561E3D /* critical_section.h */,
+				537EA8C589714AE7AA04628B /* enumerable_thread_specific.h */,
+				0D5FCFF9BCCE402E9EFBA912 /* flow_graph.h */,
+				2C42C14C64304608974BFCA6 /* flow_graph_opencl_node.h */,
+				29272B2BCDBC41469DC6CB78 /* global_control.h */,
+				ABCBB6D36F2B4A22A37A9E0D /* memory_pool.h */,
+				B92D334473704446B3E17FDC /* mutex.h */,
+				7FF93244313E4406904AD298 /* null_mutex.h */,
+				1C7E858D30FE4C75AB50DBE2 /* null_rw_mutex.h */,
+				4AD50D9725F1486E9B2A31B1 /* parallel_do.h */,
+				9C12D5A8F8A1434CA3E212F6 /* parallel_for.h */,
+				EFB96638B09A4E7893916970 /* parallel_for_each.h */,
+				D617201BA7314DF69D3A445B /* parallel_invoke.h */,
+				467F7D462E0842558BF613CB /* parallel_reduce.h */,
+				7BEFB33C6510430DB2EE8F19 /* parallel_scan.h */,
+				7063AEC85111465780E01606 /* parallel_sort.h */,
+				5516DB2D21DA4862A390FC73 /* parallel_while.h */,
+				1A298C8186664E32A915D9AC /* partitioner.h */,
+				FEF597198FCC4696AABC9EB1 /* pipeline.h */,
+				93657C70042340BCAB0004BB /* queuing_mutex.h */,
+				799955EE1F9E488E9239DB5A /* queuing_rw_mutex.h */,
+				3FA408FBB3314382BC066C13 /* reader_writer_lock.h */,
+				697882B2BF194F119CB592E6 /* recursive_mutex.h */,
+				A3672C61A6044C2FA8AA64C0 /* runtime_loader.h */,
+				28D51C785883418490ADAC46 /* scalable_allocator.h */,
+				B8EED20271DA44E1887EE735 /* spin_mutex.h */,
+				1972F3D1E9DE467DBF911670 /* spin_rw_mutex.h */,
+				F76867A7F5BB4EE19A84F8E0 /* task.h */,
+				7ED6FBDA092E4BF5913D5344 /* task_arena.h */,
+				25E3D01EB4A7466C83DF8CF3 /* task_group.h */,
+				9A5C1829E3C0406E89E399B6 /* task_scheduler_init.h */,
+				D88932E2B6C54AEF8ADD8E6D /* task_scheduler_observer.h */,
+				1CBE64A10C4D4E1AA441EBA8 /* tbb.h */,
+				465BF5DBFEC749A28158A38A /* tbb_allocator.h */,
+				A0EB08BD2A334F7C944E618B /* tbb_config.h */,
+				56265EE4B19B4794BFAA21DF /* tbb_exception.h */,
+				1BE9500ED4974A588330C3E6 /* tbb_machine.h */,
+				13D993DD7BCE4732AC954E66 /* tbb_profiling.h */,
+				0293F3C4E28F45078B02CF26 /* tbb_stddef.h */,
+				9FD7CE53B56E4AF4BC26FCAB /* tbb_thread.h */,
+				C4F698D9BF48464E85D69BC4 /* tbbmalloc_proxy.h */,
+				EB4DDEA1C4544A89BBD13D56 /* tick_count.h */,
+				8F590F858D4A453CB21DF25E /* compat */,
+				933151CFFB0A4710BEC8F1CC /* internal */,
+				E10468622A2742C4B87A4389 /* machine */,
+			);
+			name = tbb;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* hellovdb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1BF166C11A584F5FB16DBAC5 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				1172128BBAD240AA9CE5C693 /* BBox.h */,
+				C9266B703BAC4AEAB86EA3A5 /* ConjGradient.h */,
+				AADA3A60C9E24857BCB8E2F6 /* Coord.h */,
+				7F1E82AF8B764B2B91118717 /* DDA.h */,
+				3124E7DDE4B04FA48C6AA60A /* FiniteDifference.h */,
+				A2FD368C445B4E8B8CF64946 /* LegacyFrustum.h */,
+				189ADB6BBCB6433FBAC546B4 /* Maps.h */,
+				3C28ADEF22DA44FE81B61F71 /* Mat.h */,
+				92C7DDF9C1A34F55B2A179DE /* Mat3.h */,
+				5C6618241F2C4F9B8982E468 /* Mat4.h */,
+				FD55B1E463F74975A8607133 /* Math.h */,
+				42A4E8B6CE634AD4A6D59BC3 /* Operators.h */,
+				6A4413913517423AA444686D /* Proximity.h */,
+				198499555BE041459E945443 /* QuantizedUnitVec.h */,
+				0B3CB75798B1473BA0855119 /* Quat.h */,
+				F56B4E68CBEA4149B96360AC /* Ray.h */,
+				D5AE048161824BD99B209D3F /* Stats.h */,
+				D8E688B9C6DB4B4F9539117A /* Stencils.h */,
+				7D1CE328C2E84B1593399AAE /* Transform.h */,
+				9520862EA1D246CFAEF1502E /* Tuple.h */,
+				02D27DA32B9343C4A8C0D118 /* Vec2.h */,
+				9A2E0C9616A74A4095D179B6 /* Vec3.h */,
+				79F6F809A6F24C739B2CD78B /* Vec4.h */,
+			);
+			name = math;
+			sourceTree = "<group>";
+		};
+		1E53C32D48B64E328F9D576B /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				CBBB80F03747458EAA10B07D /* ChangeBackground.h */,
+				4E68A50385BA46F1AEBF9842 /* Clip.h */,
+				158280A736BD48179C6B6469 /* Composite.h */,
+				598F530BC08344499FF8A689 /* Dense.h */,
+				7618C7A09D16424D96E85F8E /* DenseSparseTools.h */,
+				4256FB67FD664803838F6521 /* Diagnostics.h */,
+				7DBF5CEE6232420685390AE5 /* Filter.h */,
+				FBAE66778CC64B1D8BDF21A6 /* GridOperators.h */,
+				3072B2D951D64A8A824B21C8 /* GridTransformer.h */,
+				B68E35E7EA7D443AB08D15EC /* Interpolation.h */,
+				73BCB103638A4CD78B07B3FB /* LevelSetAdvect.h */,
+				DDC6658E0D984E839E7EB435 /* LevelSetFilter.h */,
+				2DF59CEB90944764B126AFB4 /* LevelSetFracture.h */,
+				FACAEF38ACB247FAB348240A /* LevelSetMeasure.h */,
+				939961E645614B8CAA6E7256 /* LevelSetMorph.h */,
+				6296005C50074401A5DA752B /* LevelSetPlatonic.h */,
+				456A510F6CCD4E8197B23702 /* LevelSetRebuild.h */,
+				FBF6842F050742B79D87C197 /* LevelSetSphere.h */,
+				39AF42D796034E8A990A588F /* LevelSetTracker.h */,
+				8300CCDA5E6A458F9D553C20 /* LevelSetUtil.h */,
+				D59254F6FECC4B10AF5351D6 /* MaskToLevelSet.h */,
+				4CD68FEEA515417B9C1B79DC /* MeshToVolume.h */,
+				86A77FA4677744448278E4B1 /* Morphology.h */,
+				679F17C8BDE74234BA06DE3B /* MultiResGrid.h */,
+				20AB3198269E4AE59A3EF5E2 /* ParticleAtlas.h */,
+				A3EFC4025A65454081D3F997 /* ParticlesToLevelSet.h */,
+				D8957F074E5F4CD882D45D97 /* PointAdvect.h */,
+				61D90D771FC440A690CB0ED0 /* PointIndexGrid.h */,
+				08FADAFEEBA64A7C9503E0FF /* PointMaskGrid.h */,
+				FD3AB03450434213A7D776C1 /* PointPartitioner.h */,
+				5C60E5D223714447AA89284F /* PointScatter.h */,
+				0F7EA88E9CF44D129BA4BD73 /* PointsToMask.h */,
+				1E325EC0C1A94F089B36B8BB /* PoissonSolver.h */,
+				1D0B9815C11344DC915AF9DC /* Prune.h */,
+				94D0CEB0571A4BDE94F86CF3 /* RayIntersector.h */,
+				FAD1FD3EAC0F425B87C30B2E /* RayTracer.h */,
+				C8711A2BAE8542E1A148A04C /* SignedFloodFill.h */,
+				00B753E04E704081848D3975 /* Statistics.h */,
+				1085E4D362164BB192997D43 /* TopologyToLevelSet.h */,
+				2FCF4F3F39D84E448B2FBCBC /* ValueTransformer.h */,
+				0AF3E3AC53DC4E21A551CDD5 /* VectorTransformer.h */,
+				CA474FA90D6B42E589993FCD /* VelocityFields.h */,
+				E4D5AC493D4E4077951B0D74 /* VolumeAdvect.h */,
+				6D60520B2DF94F96B8F90C94 /* VolumeToMesh.h */,
+				C7FA578804B9408385D1D214 /* VolumeToSpheres.h */,
+			);
+			name = tools;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* hellovdb */ = {
+			isa = PBXGroup;
+			children = (
+				01B97315FEAEA392516A2CEA /* Blocks */,
+				29B97315FDCFA39411CA2CEA /* Headers */,
+				080E96DDFE201D6D7F000001 /* Source */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = hellovdb;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				24AF069485C64B6299166CDA /* Resources.h */,
+				44F635FB84994FAE888C242F /* hellovdb_Prefix.pch */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2583081AC04646E2821B2B47 /* CinderApp.icns */,
+				EFC72386059F4E16A1D34C9D /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		319DDCBF29EB425F903FE212 /* metadata */ = {
+			isa = PBXGroup;
+			children = (
+				265FD20DBF6A4AFAA64E6B94 /* Metadata.h */,
+				EB2046E6022B4972BFFD28E6 /* MetaMap.h */,
+				758AA6602CBD41A58CCADBF8 /* StringMetadata.h */,
+			);
+			name = metadata;
+			sourceTree = "<group>";
+		};
+		579D9362DDC14A1E86259A42 /* tbb */ = {
+			isa = PBXGroup;
+			children = (
+				FB8806DF951D4B47AAD81691 /* libtbb.dylib */,
+			);
+			name = tbb;
+			sourceTree = "<group>";
+		};
+		60A3224DD5A6442DBEEA96C1 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				1F88E234C1264DEBAFCB5196 /* CpuTimer.h */,
+				95F9A3AE313C4464983F4484 /* Formats.h */,
+				F433FC1533214F978617FFE9 /* logging.h */,
+				A641DB7C658446799EDF9575 /* MapsUtil.h */,
+				AC8A2C01DB4C42B8B5B4270F /* Name.h */,
+				8516B7C5441045F3ACCC88AB /* NodeMasks.h */,
+				3AD9836402104D75AB49E5A0 /* NullInterrupter.h */,
+				3B23D9386DAE4A00A7300036 /* PagedArray.h */,
+				CD775216B4B841E7B4C500AD /* Util.h */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		765BFBB662B64C0AA1FB10FF /* tree */ = {
+			isa = PBXGroup;
+			children = (
+				9E3164741D3E4A02AA0207B6 /* InternalNode.h */,
+				1D0F6A7D485D48809162D242 /* Iterator.h */,
+				752E2A97B8514132A6B7DBB6 /* LeafManager.h */,
+				F468D4517AB24371AB7A48B5 /* LeafNode.h */,
+				EEE827FB5F2849DEBE4652D9 /* LeafNodeBool.h */,
+				C5F9120F7B0348218A03E1FD /* LeafNodeMask.h */,
+				ACEC256D92BD4F4FB58ADEAB /* NodeManager.h */,
+				8749621EC31040BAB7BB8CC9 /* NodeUnion.h */,
+				DAEA6E934F754AC7AB676F83 /* RootNode.h */,
+				E64A558497D14CE4B6AEE4FE /* Tree.h */,
+				377510FE6F9041FCAFD720D3 /* TreeIterator.h */,
+				2806E77533CC4DACA5585333 /* ValueAccessor.h */,
+			);
+			name = tree;
+			sourceTree = "<group>";
+		};
+		8F590F858D4A453CB21DF25E /* compat */ = {
+			isa = PBXGroup;
+			children = (
+				41ABFC5544504CEB8C5498C2 /* ppl.h */,
+			);
+			name = compat;
+			sourceTree = "<group>";
+		};
+		933151CFFB0A4710BEC8F1CC /* internal */ = {
+			isa = PBXGroup;
+			children = (
+				5CD1F4B272284D77A80060FE /* _aggregator_impl.h */,
+				04A799B7B32D4C36ADA6AED4 /* _concurrent_queue_impl.h */,
+				14470267CEDB488F8CBBBC8D /* _concurrent_unordered_impl.h */,
+				2C36D1545E87430D93A8C524 /* _flow_graph_impl.h */,
+				BDC0A292DCE74970A5071CB4 /* _flow_graph_indexer_impl.h */,
+				0F5679C3D0B7463782C42BC3 /* _flow_graph_item_buffer_impl.h */,
+				DD2D8081397940E6AFF485DB /* _flow_graph_join_impl.h */,
+				E4DF39AEBE504934B4A67EE7 /* _flow_graph_node_impl.h */,
+				E1C75304FA544DE7BFF40711 /* _flow_graph_tagged_buffer_impl.h */,
+				27FF66A5396140F3AB55623F /* _flow_graph_trace_impl.h */,
+				0EAEE5C58BE64858A71127C7 /* _flow_graph_types_impl.h */,
+				0ACBFCC16A924AA5B1B8F6C4 /* _mutex_padding.h */,
+				72A33195B606449E95C91F1A /* _range_iterator.h */,
+				30DB053F9DEC475BA5934109 /* _tbb_hash_compare_impl.h */,
+				78FA6988D79E48FBB7F249FA /* _tbb_strings.h */,
+				4A56BB9970344CD5B7414D58 /* _tbb_windef.h */,
+				83A0EE6C9C264381B832026A /* _template_helpers.h */,
+				ABC86EE7DE8041C2A6C4DF9B /* _x86_eliding_mutex_impl.h */,
+				0BDE7B6F5E6540599266972E /* _x86_rtm_rw_mutex_impl.h */,
+			);
+			name = internal;
+			sourceTree = "<group>";
+		};
+		ACB3567AABBF49869A4BD982 /* OpenVDB */ = {
+			isa = PBXGroup;
+			children = (
+				93664EFF8A0B41EFA09D8D0F /* libopenvdb.3.2.0.dylib */,
+			);
+			name = OpenVDB;
+			sourceTree = "<group>";
+		};
+		AE9ADA35BFA4459C9EAB8837 /* io */ = {
+			isa = PBXGroup;
+			children = (
+				7925B3C8FE794341B9C493E1 /* Archive.h */,
+				B08FB3A9BF6D4DE2B6D67956 /* Compression.h */,
+				9C4C8572C14A49E48AE225A1 /* File.h */,
+				A9FC1CC932C9427D854A3B4D /* GridDescriptor.h */,
+				EBE215A2A2E848608AEDDA86 /* io.h */,
+				A1742C29395A42DF8393EA8B /* Queue.h */,
+				9E425867EC2048EBBCE500C3 /* Stream.h */,
+				C70C8A3A109C4E97BEBE18AE /* TempFile.h */,
+			);
+			name = io;
+			sourceTree = "<group>";
+		};
+		B778C2A8FDED456192B90323 /* OpenVDB */ = {
+			isa = PBXGroup;
+			children = (
+				C16584FADB9E44829E569E64 /* src */,
+				E495D321C34B413792C5BE4F /* libs */,
+			);
+			name = OpenVDB;
+			sourceTree = "<group>";
+		};
+		C16584FADB9E44829E569E64 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				F1590A0F8B3941B68BFAFA4B /* OpenEXR */,
+				CD36DB5E434D42B09C881CF6 /* OpenVDB */,
+				18809E78D2C74A93A76B0712 /* tbb */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		CD36DB5E434D42B09C881CF6 /* OpenVDB */ = {
+			isa = PBXGroup;
+			children = (
+				99DDD6FD991B4937A19FD2F9 /* Exceptions.h */,
+				3935E69A1AF94E0ABAB12078 /* Grid.h */,
+				8E37C19B129D4F4C8C0E57BE /* Metadata.h */,
+				79635968EB3847C2A5A07F5D /* openvdb.h */,
+				68E7621B8F6641AC8F40FDC7 /* Platform.h */,
+				2BDF72080E0F482A8B200935 /* PlatformConfig.h */,
+				3E7D389589514025BB2D349A /* Types.h */,
+				5690FCE6F36D4EC0823B306F /* version.h */,
+				AE9ADA35BFA4459C9EAB8837 /* io */,
+				1BF166C11A584F5FB16DBAC5 /* math */,
+				319DDCBF29EB425F903FE212 /* metadata */,
+				1E53C32D48B64E328F9D576B /* tools */,
+				765BFBB662B64C0AA1FB10FF /* tree */,
+				60A3224DD5A6442DBEEA96C1 /* util */,
+			);
+			name = OpenVDB;
+			sourceTree = "<group>";
+		};
+		DFC9D5DEE56A47BC9E3F4DB3 /* Boost */ = {
+			isa = PBXGroup;
+			children = (
+				DBA1ED34394F46E385C59653 /* libboost_iostreams.dylib */,
+				A4DDE46E27894CA9AFE80E65 /* libboost_system.dylib */,
+			);
+			name = Boost;
+			sourceTree = "<group>";
+		};
+		E10468622A2742C4B87A4389 /* machine */ = {
+			isa = PBXGroup;
+			children = (
+				0B9F34C792A84D53BCFB3A99 /* gcc_armv7.h */,
+				34ABD5ECC0E44583BA4EB7AA /* gcc_generic.h */,
+				2586250CD6B54D189569D3DE /* gcc_ia32_common.h */,
+				DACAE5A24394438EB48F9A26 /* gcc_itsx.h */,
+				FB3AFC03A5E745D5B02635F2 /* ibm_aix51.h */,
+				9F368EEB49CA427487DDD573 /* icc_generic.h */,
+				E60303278BA047C2B2042A74 /* linux_common.h */,
+				AE9C3CE180E646C59C13BB7A /* linux_ia32.h */,
+				C3293D42326744DBA6659F2F /* linux_ia64.h */,
+				83A737B2A7584D288A7295C4 /* linux_intel64.h */,
+				BE74EA93A740410FAAC60EC1 /* mac_ppc.h */,
+				988370A1171A49DBA800C4C2 /* macos_common.h */,
+				ED22FEECB5AB4D0DB7A9B89B /* mic_common.h */,
+				1C98153C0D784B6BB429B8BC /* msvc_armv7.h */,
+				BF1A4BA4225049D6A219103E /* msvc_ia32_common.h */,
+				3ED6CC0A68874F3793F7C033 /* sunos_sparc.h */,
+				837A1F37B6AC4515B70AAEEA /* windows_api.h */,
+				82CE5EB39C9C4D53B06D7E6E /* windows_ia32.h */,
+				BEFA0EAA7FA0486CABB40AA8 /* windows_intel64.h */,
+				989EF70AE45C4A4D8CD13E52 /* xbox360_ppc.h */,
+			);
+			name = machine;
+			sourceTree = "<group>";
+		};
+		E495D321C34B413792C5BE4F /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				FFB5AFC9BC1E4ACAAAAF5E90 /* macosx */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		F1590A0F8B3941B68BFAFA4B /* OpenEXR */ = {
+			isa = PBXGroup;
+			children = (
+				A9E2F5D2C90C42D59DE372F1 /* half.h */,
+				553F4015E1A24524AAAE1896 /* halfExport.h */,
+				387105F651EF4DB0BC6733E5 /* halfFunction.h */,
+				EC6CBEAA9A04436C9E2EF6A0 /* halfLimits.h */,
+				0EE5D7F75A8442E3A1890B8A /* Iex.h */,
+				ECFB8EF0306A42FF8A6693BF /* IexBaseExc.h */,
+				933D039F6A884D279A79293E /* IexErrnoExc.h */,
+				52073619414C42CF93512FF9 /* IexExport.h */,
+				61EE078C3B4B438EB6DB806E /* IexForward.h */,
+				84148316A9D149C5B39FE908 /* IexMacros.h */,
+				0BED9A50C09646E982ECD36A /* IexMathExc.h */,
+				0A33187FEE0F44BFB590DBBE /* IexMathFloatExc.h */,
+				61ED3B646A65472C813FDAE5 /* IexMathFpu.h */,
+				407DE564606448C0AEA9AD03 /* IexMathIeeeExc.h */,
+				9C2706104B7540A29D57D255 /* IexNamespace.h */,
+				37822EF4D2B647CAA5FA27B4 /* IexThrowErrnoExc.h */,
+				4449DEAD8A6E44F6AA10FA25 /* IlmBaseConfig.h */,
+				A607BCCF128B49C3B387CBCB /* IlmThread.h */,
+				1FC8C8B637A244A1AFDBFE19 /* IlmThreadExport.h */,
+				5EA764D14D4342FCADE3D04E /* IlmThreadForward.h */,
+				5137CBB32F5B43D0818A8707 /* IlmThreadMutex.h */,
+				EBDC1C01633E4F51BDFA5EF9 /* IlmThreadNamespace.h */,
+				48ADBC20775B4E2AAD7D5331 /* IlmThreadPool.h */,
+				AE3281EE04704147AEBAA90E /* IlmThreadSemaphore.h */,
+				6B8B93060AE9456D8EB2D07D /* ImathBox.h */,
+				EDE717384A564E95AC13A8C3 /* ImathBoxAlgo.h */,
+				3D3C406E5AED44138B9BC095 /* ImathColor.h */,
+				0701BE6BBB7F4FC78E6E0E1A /* ImathColorAlgo.h */,
+				595769A3545346A59CFCA164 /* ImathEuler.h */,
+				AE99C3E9FC704C8F8489CCF8 /* ImathExc.h */,
+				735839DA56694F12BC0B7AD5 /* ImathExport.h */,
+				1BDCDC6CEC7A4DD0B6B6A45D /* ImathForward.h */,
+				066DA66D271D40298F18E4DF /* ImathFrame.h */,
+				A5AB2BB31B674DBDB6FFAA14 /* ImathFrustum.h */,
+				D705C2814C0E450EB61DD9D9 /* ImathFrustumTest.h */,
+				404AAC4A8C4B46E4ABDF0264 /* ImathFun.h */,
+				DF5E0A7CE3024E7C88406A1E /* ImathGL.h */,
+				E4DA0FE4AD0945E883BB5C34 /* ImathGLU.h */,
+				DA59A68D82B54BC1A7E0F691 /* ImathHalfLimits.h */,
+				3242A01D5A56436DA879248F /* ImathInt64.h */,
+				923F1AE8525B4BDDA4DD852C /* ImathInterval.h */,
+				25A88F91682F4EEDBD080292 /* ImathLimits.h */,
+				A094D8F6BCF745CEA4780D15 /* ImathLine.h */,
+				853AF0516CB34BEABBFA4BD2 /* ImathLineAlgo.h */,
+				851281317D9B43108CDFCF6F /* ImathMath.h */,
+				59DF06CF457147B381DF5AB9 /* ImathMatrix.h */,
+				1F021F6B382743F7AFFA540F /* ImathMatrixAlgo.h */,
+				550F650587A441A6AF2D19D6 /* ImathNamespace.h */,
+				75A271E4E9924B2E869544FB /* ImathPlane.h */,
+				4574F06A4DA248C1932798BD /* ImathPlatform.h */,
+				162E477E5E564CC3B49D5D3D /* ImathQuat.h */,
+				E74E64CB203642B2BF2EC073 /* ImathRandom.h */,
+				B15627EFEEDF4CF6ABEDFC0C /* ImathRoots.h */,
+				4EFAEFDBC7EB49ECAC5DF18B /* ImathShear.h */,
+				9503FB53791D48A398C73ECB /* ImathSphere.h */,
+				EEFF77D6BBB24D0DA04E05C7 /* ImathVec.h */,
+				AC79DD9FF25242BFABAC1505 /* ImathVecAlgo.h */,
+				4CF43007194941A5A10D3ABF /* ImfAcesFile.h */,
+				6FADC96B5D634BF99CB0A2CD /* ImfArray.h */,
+				2386D847762F4C648BAE5460 /* ImfAttribute.h */,
+				17899B32C8DD4217A1E6DCE4 /* ImfB44Compressor.h */,
+				C90EB2AA50B243E9B8B4B16B /* ImfBoxAttribute.h */,
+				1A83659867DD4117BBE17B00 /* ImfChannelList.h */,
+				6A869FB774F8419C852D1195 /* ImfChannelListAttribute.h */,
+				F3B22D3FAD674C0DB4DFAE49 /* ImfChromaticities.h */,
+				7C1AE7790FFE486A992ED49D /* ImfChromaticitiesAttribute.h */,
+				045B6E39FD5E41558089650F /* ImfCompositeDeepScanLine.h */,
+				90CBCFC9B58C48D8B918891B /* ImfCompression.h */,
+				12D86FFC8707434ABE228BC3 /* ImfCompressionAttribute.h */,
+				0ABD2805FE194B28AF5B3490 /* ImfConvert.h */,
+				8BA337AD4A0A45749C14A189 /* ImfCRgbaFile.h */,
+				C04ADF08AE434A579ACF6A57 /* ImfDeepCompositing.h */,
+				85BE2D88CE3943B3B5FFC28E /* ImfDeepFrameBuffer.h */,
+				EFC6762ADC9A463195B32141 /* ImfDeepImageState.h */,
+				8030BE53935C450E8DDF317D /* ImfDeepImageStateAttribute.h */,
+				C43F1D78709C4F21AB5B4B81 /* ImfDeepScanLineInputFile.h */,
+				F6F5D429766C464C8C786E0B /* ImfDeepScanLineInputPart.h */,
+				B6E2EC2552A1403DA0195E03 /* ImfDeepScanLineOutputFile.h */,
+				CF719C3596BC4953B99C3322 /* ImfDeepScanLineOutputPart.h */,
+				DC275D2E8C764B62AFFC16A6 /* ImfDeepTiledInputFile.h */,
+				E99465E2131F460E85A86A95 /* ImfDeepTiledInputPart.h */,
+				2457D105697C45829E3E54D3 /* ImfDeepTiledOutputFile.h */,
+				74AB302ED8CE461AA8A91F6D /* ImfDeepTiledOutputPart.h */,
+				D4D8B64A77C14128BBB49F89 /* ImfDoubleAttribute.h */,
+				E161EC1B994543539A0A387D /* ImfEnvmap.h */,
+				0AB37575CB3E4F0E8CDF8685 /* ImfEnvmapAttribute.h */,
+				D6E74EF1D1A9439B975CA053 /* ImfExport.h */,
+				8C9B552CCA3F4525BCAA9C07 /* ImfFloatAttribute.h */,
+				4D9B0D377BCD4D14987F073A /* ImfForward.h */,
+				7C2E1616DD424B14BEA67E0C /* ImfFrameBuffer.h */,
+				FDE08F3E60B94358BAEAA8E7 /* ImfFramesPerSecond.h */,
+				AE3F7A9247ED41A69DAC992F /* ImfGenericInputFile.h */,
+				2F1D80952E4D4906982D91D2 /* ImfGenericOutputFile.h */,
+				98E6D98F682144CF899F5810 /* ImfHeader.h */,
+				E658040AA7D6455AAD0E6FFE /* ImfHuf.h */,
+				5FF985F006D4447D83DB43E0 /* ImfInputFile.h */,
+				56A37BDC19294FD2ABF22184 /* ImfInputPart.h */,
+				863561C6A82041BEAF428DE5 /* ImfInt64.h */,
+				8858363535F1469BA55C00DF /* ImfIntAttribute.h */,
+				57726DC8FB2443EB9CC993FB /* ImfIO.h */,
+				58AA11E12DD44B9FB624AAFC /* ImfKeyCode.h */,
+				3F6E1E7B572D4F1989D8095E /* ImfKeyCodeAttribute.h */,
+				E195F5256A0842E290308D2C /* ImfLineOrder.h */,
+				7C0A1F25845944C8AE300F26 /* ImfLineOrderAttribute.h */,
+				3BAA32B14D6B4C70A60EB26A /* ImfLut.h */,
+				66F8E83F933647EA8EF147BC /* ImfMatrixAttribute.h */,
+				8CDBF1183ADF46C1AB24AEDC /* ImfMisc.h */,
+				E5D7F4543357480CB6C3EC76 /* ImfMultiPartInputFile.h */,
+				874EE7A62D074ACF83B66462 /* ImfMultiPartOutputFile.h */,
+				0A7E53BEA2DB4A3E95EF0FED /* ImfMultiView.h */,
+				C4188ED15A6541C196B56B35 /* ImfName.h */,
+				58E3C8B653E343BDA4AB2647 /* ImfNamespace.h */,
+				B30CE347B12046D9BE7A2D68 /* ImfOpaqueAttribute.h */,
+				D466EB00D47C407AAD772FA1 /* ImfOutputFile.h */,
+				BCC462B9739B483893BCB4AB /* ImfOutputPart.h */,
+				44741FA9C6754E7EB05BAFDE /* ImfPartHelper.h */,
+				94D7B79FF67A42F4878B1E1A /* ImfPartType.h */,
+				9BC97B1F5E934976A1A70A2E /* ImfPixelType.h */,
+				21631ECB14364213A5E69B44 /* ImfPreviewImage.h */,
+				E32A589E5F7249C3A6721225 /* ImfPreviewImageAttribute.h */,
+				1D1D89B8E4724932849287CD /* ImfRational.h */,
+				09E51D92868749C6A60E9282 /* ImfRationalAttribute.h */,
+				FEA3BBAC316240E3A53C4057 /* ImfRgba.h */,
+				3D337D8D791E4FA2B3CA3CD8 /* ImfRgbaFile.h */,
+				81CD720E6B684F48A7123EA5 /* ImfRgbaYca.h */,
+				141FE003918242B1BC9BB85A /* ImfStandardAttributes.h */,
+				2D58F7EAB9584802BE1EDAC1 /* ImfStringAttribute.h */,
+				5670DB1F4B014F76B1936C50 /* ImfStringVectorAttribute.h */,
+				326F5BDA11E2409A95EABFED /* ImfTestFile.h */,
+				A83B60E132B24BE1BD062D6A /* ImfThreading.h */,
+				A36FE145B5554B51AF7D6652 /* ImfTileDescription.h */,
+				EF06358ADB2E404EA40B720D /* ImfTileDescriptionAttribute.h */,
+				35EFAB57AB634433AEC9E463 /* ImfTiledInputFile.h */,
+				F5214026025943F98D8D0BA6 /* ImfTiledInputPart.h */,
+				1CFC19B51F334D5EAC88394A /* ImfTiledOutputFile.h */,
+				208BB7A1C1914B3A959E91EE /* ImfTiledOutputPart.h */,
+				82A2FCB64C364ABBBBD13402 /* ImfTiledRgbaFile.h */,
+				1EB057751EFE45BE97EC736A /* ImfTimeCode.h */,
+				C1EA03D8AE3C48B8808FA9D4 /* ImfTimeCodeAttribute.h */,
+				11E188C888EE487F86227C29 /* ImfVecAttribute.h */,
+				BFA960E67DD84CAB9C09A286 /* ImfVersion.h */,
+				38FB8F54430B43F9AA66CF19 /* ImfWav.h */,
+				B410BF6F5C4D4F9D995F26F3 /* ImfXdr.h */,
+				F5CE4AC2F6294DDAB2A34B59 /* OpenEXRConfig.h */,
+			);
+			name = OpenEXR;
+			sourceTree = "<group>";
+		};
+		F40E52A0F97A47AAA755C7C0 /* OpenEXR */ = {
+			isa = PBXGroup;
+			children = (
+				109AB4130484473AB338DE65 /* libHalf.dylib */,
+			);
+			name = OpenEXR;
+			sourceTree = "<group>";
+		};
+		FFB5AFC9BC1E4ACAAAAF5E90 /* macosx */ = {
+			isa = PBXGroup;
+			children = (
+				F40E52A0F97A47AAA755C7C0 /* OpenEXR */,
+				ACB3567AABBF49869A4BD982 /* OpenVDB */,
+				579D9362DDC14A1E86259A42 /* tbb */,
+				DFC9D5DEE56A47BC9E3F4DB3 /* Boost */,
+			);
+			name = macosx;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* hellovdb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "hellovdb" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				01F93BC3007E460EBA2BCC87 /* CopyFiles */,
+				614F3FFC320A43429D0F2618 /* CopyFiles */,
+				101056A30D314B51BF5D7001 /* CopyFiles */,
+				22E9C646BD334643B3E62367 /* CopyFiles */,
+				1162FB594CFD4AB6A0169888 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hellovdb;
+			productInstallPath = "$(HOME)/Applications";
+			productName = hellovdb;
+			productReference = 8D1107320486CEB800E47090 /* hellovdb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "hellovdb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* hellovdb */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* hellovdb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				966907E28D5544C0ABCFF2E4 /* CinderApp.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75616103D7F94BDFAB84306A /* hellovdbApp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = hellovdb_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder_d.a\"",
+					../../../libs/macosx/OpenEXR/libHalf.dylib,
+					../../../libs/macosx/OpenVDB/libopenvdb.3.2.0.dylib,
+					../../../libs/macosx/tbb/libtbb.dylib,
+					../../../libs/macosx/Boost/libboost_iostreams.dylib,
+					../../../libs/macosx/Boost/libboost_system.dylib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libcinder.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = hellovdb;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = hellovdb_Prefix.pch;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NDEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"\"$(CINDER_PATH)/lib/libcinder.a\"",
+					../../../libs/macosx/OpenEXR/libHalf.dylib,
+					../../../libs/macosx/OpenVDB/libopenvdb.3.2.0.dylib,
+					../../../libs/macosx/tbb/libtbb.dylib,
+					../../../libs/macosx/Boost/libboost_iostreams.dylib,
+					../../../libs/macosx/Boost/libboost_system.dylib,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.libcinder.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = hellovdb;
+				STRIP_INSTALLED_PRODUCT = YES;
+				SYMROOT = ./build;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CINDER_PATH = ../../../../..;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				ENABLE_TESTABILITY = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\"",
+					"\"$(CINDER_PATH)/blocks/OpenVDB/src\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CINDER_PATH = ../../../../..;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++11";
+				CLANG_CXX_LIBRARY = "libc++";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"\"$(CINDER_PATH)/include\"",
+					"\"$(CINDER_PATH)/blocks/OpenVDB/src\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "\"$(CINDER_PATH)/include\" ../include";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "hellovdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "hellovdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
